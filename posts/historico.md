@@ -6,4 +6,4 @@
 | 2026-11-17 | Carrossel 5 | Divulgação dos serviços KMD (Meta Ads, Google Ads, como funciona, para quem é) | Publicado (Claude, aprovado) | https://www.instagram.com/p/Df2OHGECANA/ |
 | 2026-11-17 | Carrossel 6 | Meta Ads vs Google Ads: qual escolher (interesse vs intenção, tabela comparativa) | Publicado 19h (Claude, aprovado) | media id 18021752235000792 |
 | 2026-11-18 | Carrossel 6 | Como o Google vê o seu negócio (Perfil da Empresa no Google, checklist, erros, CTA GOOGLE) | Aprovado, agendado 18/11 às 8h | |
-| 2026-11-17 | Stories x3 | Aviso post Meta vs Google; Mito: mais dinheiro resolve anúncio; Pergunta "já investiu em anúncios?" (sondagem manual) | Pronto, aguarda aprovação | |
+| 2026-11-17 | Stories x3 | Aviso post Meta vs Google; Mito: mais dinheiro resolve anúncio; Pergunta "já investiu em anúncios?" (sondagem manual) | Story 1 publicado 19:24 (Claude, aprovado); 2 e 3 por publicar | media id 18121162078986206 |
