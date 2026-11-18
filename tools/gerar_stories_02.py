@@ -1,6 +1,7 @@
 import base64, sys
 from playwright.sync_api import sync_playwright
 D = sys.argv[1]
+prev = base64.b64encode(open("posts/2026-11-18-quanto-investir/slide03.jpg","rb").read()).decode()
 cover = base64.b64encode(open("posts/2026-11-18-como-o-google-ve/slide01.jpg","rb").read()).decode()
 CSS = """*{margin:0;padding:0;box-sizing:border-box}
 body{width:1080px;height:1920px;background:#0E1525;color:#F4F1EA;font-family:'Poppins';position:relative;overflow:hidden}
@@ -20,9 +21,9 @@ f"""<div class=tag>Saiu hoje no feed</div><h1>Como o Google vê o seu <span clas
 <p style='margin-top:40px'>Orçamento, Instagram, Google, por onde começar… <b>Pode perguntar.</b></p>
 <div style='height:440px'></div>
 <p style='text-align:center;font-size:40px'>As melhores respostas vão para os Stories ☝️</p>""",
-"""<div class=tag>Amanhã às 9h 🔔</div><h1>Quanto investir por mês em <span class=hl>anúncios?</span></h1>
-<div class=box>Não existe número mágico. Existe <b class=hl>uma conta simples</b> que quase ninguém faz — e amanhã mostramos qual é.</div>
-<p style='margin-top:70px;text-align:center'>Ative as notificações do perfil para não perder 👀</p>"""
+f"""<div class=tag>Spoiler 👀</div><h1>Quanto investir por mês em <span class=hl>anúncios?</span></h1>
+<div style='position:relative;width:560px;margin:56px auto 0;border-radius:24px;overflow:hidden;transform:rotate(2deg);box-shadow:0 30px 80px rgba(0,0,0,.6)'><img src='data:image/jpeg;base64,{prev}' style='width:100%;display:block;filter:blur(14px)'><div style='position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(14,21,37,.35)'><span style='background:#FFB020;color:#0E1525;font-weight:800;font-size:44px;padding:20px 36px;border-radius:14px'>Amanhã, 9h, no feed</span></div></div>
+<p style='margin-top:60px;text-align:center'>A conta simples que define <b>o valor certo para o negócio</b>. Ative as notificações 🔔</p>"""
 ]
 with sync_playwright() as pw:
     b = pw.chromium.launch(executable_path="/usr/bin/google-chrome")
