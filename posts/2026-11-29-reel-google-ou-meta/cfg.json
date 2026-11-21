@@ -1,0 +1,61 @@
+{
+ "s1k": "Google ou Meta?",
+ "s1l1": "“Só preciso",
+ "s1l2": "de Instagram.”",
+ "s1l3": "",
+ "emo": "🔎",
+ "cardcap": "Pesquisa no Google",
+ "chip": "“dentista perto de mim”",
+ "stamp": "DEPENDE",
+ "stampColor": "#FF6B2C",
+ "s2t1": "Há quem procure",
+ "s2t2": "e quem <span class=hl>descubra</span>.",
+ "s2b": "No Google, o cliente <b style='color:#2B1A12'>já está à procura</b>. No Instagram, descobre o seu negócio.",
+ "s3k": "Onde ganha cada um",
+ "s3t1": "Google",
+ "s3t2": "vs Meta (Instagram)",
+ "ca": "GOOGLE",
+ "cb": "META",
+ "rows": [
+  [
+   "Pessoa já à procura",
+   "✓",
+   "✕"
+  ],
+  [
+   "Criar vontade nova",
+   "✕",
+   "✓"
+  ],
+  [
+   "Serviço urgente",
+   "✓",
+   "✕"
+  ],
+  [
+   "Produto muito visual",
+   "✕",
+   "✓"
+  ]
+ ],
+ "s4k": "Como escolher",
+ "s4t1": "Uma pergunta",
+ "s4t2": "decide",
+ "aemo": "❓",
+ "anum": 1,
+ "asuf": "",
+ "alab": "pergunta: o cliente já procura por si?",
+ "bemo": "🧭",
+ "btxt": "→ Google",
+ "blab": "se o cliente já procura · se não, Meta",
+ "bGood": true,
+ "s4b": "Comece pelo canal onde <b style='color:#2B1A12'>o seu cliente já está.</b>",
+ "s5k": "Não sabe qual escolher?",
+ "s5l1": "Comece pelo",
+ "s5l2": "canal certo.",
+ "kw": "GOOGLE",
+ "s5b": "🔁 Envie a quem só aposta no Instagram.",
+ "capaK": "Google ou Meta?",
+ "capaT": "“Só preciso<br>de <span class=hl>Instagram</span>.”",
+ "capaBtn": "Depende. Veja ▶"
+}

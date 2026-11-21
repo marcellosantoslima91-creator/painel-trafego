@@ -1,0 +1,20 @@
+# Reel — reel video telemovel
+
+- Formato: Reel animado 1080x1920, 20 s, som próprio (tools/reel_animado/build.py cfg.json)
+- Estado: a aguardar aprovação do Marcello
+- Data proposta: Qui 26/11 12:30
+
+## Legenda
+
+Não precisa de fotógrafo para fazer um bom anúncio. 📱
+
+As pessoas confiam em pessoas reais: o seu espaço, a sua equipa, o seu produto. Um vídeo de 15 segundos, feito com o telemóvel, passa mais confiança do que uma foto genérica.
+
+🎬 3 takes: espaço · produto · pessoa
+☀️ Luz natural, telemóvel na vertical
+🎵 Sem música com direitos de autor
+
+💬 Comente “FILMAR” e envio-lhe 5 ideias de vídeo para gravar hoje.
+🔁 Envie a quem acha que precisa de fotógrafo.
+
+#trafegopago #metaads #marketingdigital #negocioslocais

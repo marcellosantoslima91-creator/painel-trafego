@@ -1,0 +1,60 @@
+{
+ "s1k": "Mito ou verdade?",
+ "s1l1": "“Quanto mais",
+ "s1l2": "longe chegar,",
+ "s1l3": "melhor.”",
+ "emo": "📍",
+ "cardcap": "O seu negócio",
+ "chip": "Raio: 50 km",
+ "stamp": "MITO",
+ "s2t1": "Ninguém atravessa",
+ "s2t2": "o distrito <span class=hl>por um café</span>.",
+ "s2b": "Num negócio local, o cliente está perto. Anunciar longe é pagar a quem <b style='color:#2B1A12'>nunca vai aparecer</b>.",
+ "s3k": "O que muda",
+ "s3t1": "Raio de 50 km",
+ "s3t2": "vs raio de 5 km",
+ "ca": "50 KM",
+ "cb": "5 KM",
+ "rows": [
+  [
+   "Quem vê pode mesmo vir",
+   "✕",
+   "✓"
+  ],
+  [
+   "Orçamento concentrado",
+   "✕",
+   "✓"
+  ],
+  [
+   "Mensagens da sua zona",
+   "✕",
+   "✓"
+  ],
+  [
+   "Chega a quem importa",
+   "✕",
+   "✓"
+  ]
+ ],
+ "s4k": "Regra para começar",
+ "s4t1": "Comece pequeno,",
+ "s4t2": "alargue depois",
+ "aemo": "🗺️",
+ "anum": 50,
+ "asuf": " km",
+ "alab": "espalha o orçamento por quem não vem",
+ "bemo": "🎯",
+ "btxt": "3 a 5 km",
+ "blab": "onde estão os seus clientes",
+ "bGood": true,
+ "s4b": "Alargue o raio <b style='color:#2B1A12'>só se faltar alcance.</b>",
+ "s5k": "Não sabe que raio usar?",
+ "s5l1": "Anuncie onde",
+ "s5l2": "o cliente está.",
+ "kw": "RAIO",
+ "s5b": "🔁 Envie a um dono de negócio local.",
+ "capaK": "Mito ou verdade?",
+ "capaT": "“Quanto mais<br>longe, <span class=hl>melhor</span>.”",
+ "capaBtn": "Veja o raio certo ▶"
+}

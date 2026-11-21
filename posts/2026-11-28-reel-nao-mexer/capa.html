@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#FFF3E3;font-family:'Poppins',sans-serif;color:#2B1A12;position:relative}
+.abs{position:absolute}.blob{position:absolute;border-radius:50%}
+.kicker{font-family:'Inter';font-weight:700;font-size:38px;letter-spacing:7px;text-transform:uppercase;color:#FF6B2C}
+.big{font-weight:800;font-size:118px;line-height:.98;letter-spacing:-4px}
+.hl{color:#FF6B2C}
+.brand{position:absolute;left:90px;right:90px;bottom:300px;display:flex;justify-content:space-between;font-family:'Inter';font-weight:600;font-size:32px;color:#8A6E5E}
+.brand b{color:#2B1A12}
+</style></head><body>
+<div class="blob" style="width:900px;height:900px;background:#FFD8B8;left:-300px;top:180px"></div>
+<div class="blob" style="width:700px;height:700px;background:#FFE6C9;right:-260px;top:1100px"></div>
+<div class="abs" style="top:0;left:0;width:1080px;height:16px;background:#FF6B2C"></div>
+<div class="abs" style="left:90px;top:290px;width:260px;height:200px;border-radius:40px;background:#fff;box-shadow:0 20px 50px rgba(43,26,18,.12);display:flex;align-items:center;justify-content:center;font-size:130px" id="emo"></div>
+<div class="abs" id="stamp" style="left:420px;top:270px;padding:10px 40px;border:14px solid #E5484D;border-radius:34px;color:#E5484D;font-weight:800;font-size:120px;transform:rotate(-8deg);background:rgba(255,243,227,.85)"></div>
+<div class="abs" style="left:90px;top:620px;width:920px">
+  <div class="kicker" id="k"></div>
+  <div class="big" style="margin-top:26px" id="t"></div>
+</div>
+<div class="abs" style="left:90px;top:1440px;background:#2B1A12;color:#FFF3E3;border-radius:24px;padding:22px 36px;font-weight:800;font-size:46px" id="btn"></div>
+<div class="brand"><b>KMD Mídias Digitais</b><span>@kmdmidias</span></div>
+<script>
+const C={"s1k": "Mito ou verdade?", "s1l1": "“Se ao fim de 1 dia", "s1l2": "não deu nada,", "s1l3": "é para desligar.”", "emo": "📉", "cardcap": "O seu anúncio", "chip": "Dia 1: 0 mensagens", "stamp": "MITO", "s2t1": "O anúncio precisa", "s2t2": "de <span class=hl>tempo para aprender</span>.", "s2b": "Nos primeiros dias, o Meta ainda está a testar <b style='color:#2B1A12'>a quem mostrar o anúncio</b>.", "s3k": "O que muda", "s3t1": "Mexer todos os dias", "s3t2": "vs esperar 3 a 7 dias", "ca": "TODO O DIA", "cb": "3–7 DIAS", "rows": [["O Meta acaba de aprender", "✕", "✓"], ["Dados para decidir", "✕", "✓"], ["Custo estabiliza", "✕", "✓"], ["Sabe o que resultou", "✕", "✓"]], "s4k": "Regra KMD", "s4t1": "Antes de mexer,", "s4t2": "espere e meça", "aemo": "📊", "anum": 7, "asuf": " dias", "alab": "de dados antes de grandes mudanças", "bemo": "🔧", "btxt": "1 mudança", "blab": "de cada vez", "bGood": true, "s4b": "Mudar tudo de uma vez é <b style='color:#2B1A12'>não saber o que resultou.</b>", "s5k": "Anúncio sem resultados?", "s5l1": "Espere,", "s5l2": "depois ajuste.", "kw": "ADS", "s5b": "🔁 Envie a quem desliga anúncios ao 1.º dia.", "capaK": "Mito ou verdade?", "capaT": "“1 dia sem<br>resultados?<br><span class=hl>Desliga.</span>”", "capaBtn": "Espere, veja isto ▶"};
+document.getElementById('emo').textContent=C.emo; document.getElementById('stamp').textContent=C.stamp;
+const sc=C.stampColor||'#E5484D'; const st=document.getElementById('stamp'); st.style.borderColor=sc; st.style.color=sc;
+document.getElementById('k').innerHTML=C.capaK; document.getElementById('t').innerHTML=C.capaT; document.getElementById('btn').innerHTML=C.capaBtn||'Veja antes de anunciar ▶';
+</script></body></html>

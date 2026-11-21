@@ -1,0 +1,60 @@
+{
+ "s1k": "Black Friday",
+ "s1l1": "“Black Friday",
+ "s1l2": "não é para",
+ "s1l3": "negócio local.”",
+ "emo": "🏷️",
+ "cardcap": "Montra da concorrência",
+ "chip": "-50% em tudo?",
+ "stamp": "MITO",
+ "s2t1": "Não precisa de",
+ "s2t2": "<span class=hl>desconto gigante</span>.",
+ "s2b": "Precisa de <b style='color:#2B1A12'>uma razão para virem este fim de semana</b>.",
+ "s3k": "O que muda",
+ "s3t1": "Desconto louco",
+ "s3t2": "vs oferta de bairro",
+ "ca": "-50%",
+ "cb": "OFERTA",
+ "rows": [
+  [
+   "Protege a margem",
+   "✕",
+   "✓"
+  ],
+  [
+   "Traz cliente que volta",
+   "✕",
+   "✓"
+  ],
+  [
+   "Diferente da concorrência",
+   "✕",
+   "✓"
+  ],
+  [
+   "Pronta em 30 minutos",
+   "✕",
+   "✓"
+  ]
+ ],
+ "s4k": "Ainda vai a tempo",
+ "s4t1": "Anúncio de",
+ "s4t2": "sexta a domingo",
+ "aemo": "⏳",
+ "anum": 3,
+ "asuf": " dias",
+ "alab": "de campanha chegam",
+ "bemo": "🎁",
+ "btxt": "Brinde",
+ "blab": "em vez de desconto grande",
+ "bGood": true,
+ "s4b": "Café: bolo grátis com 2 cafés. Salão: brinde na marcação. <b style='color:#2B1A12'>Simples e claro.</b>",
+ "s5k": "Quer ideias para hoje?",
+ "s5l1": "Anúncio no ar",
+ "s5l2": "até domingo.",
+ "kw": "BLACK",
+ "s5b": "🔁 Envie a quem ainda não preparou nada.",
+ "capaK": "Black Friday",
+ "capaT": "“Não é para<br><span class=hl>negócio local</span>.”",
+ "capaBtn": "3 ideias rápidas ▶"
+}

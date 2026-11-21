@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#FFF3E3;font-family:'Poppins',sans-serif;color:#2B1A12;position:relative}
+.abs{position:absolute}.blob{position:absolute;border-radius:50%}
+.kicker{font-family:'Inter';font-weight:700;font-size:38px;letter-spacing:7px;text-transform:uppercase;color:#FF6B2C}
+.big{font-weight:800;font-size:118px;line-height:.98;letter-spacing:-4px}
+.hl{color:#FF6B2C}
+.brand{position:absolute;left:90px;right:90px;bottom:300px;display:flex;justify-content:space-between;font-family:'Inter';font-weight:600;font-size:32px;color:#8A6E5E}
+.brand b{color:#2B1A12}
+</style></head><body>
+<div class="blob" style="width:900px;height:900px;background:#FFD8B8;left:-300px;top:180px"></div>
+<div class="blob" style="width:700px;height:700px;background:#FFE6C9;right:-260px;top:1100px"></div>
+<div class="abs" style="top:0;left:0;width:1080px;height:16px;background:#FF6B2C"></div>
+<div class="abs" style="left:90px;top:290px;width:260px;height:200px;border-radius:40px;background:#fff;box-shadow:0 20px 50px rgba(43,26,18,.12);display:flex;align-items:center;justify-content:center;font-size:130px" id="emo"></div>
+<div class="abs" id="stamp" style="left:420px;top:270px;padding:10px 40px;border:14px solid #E5484D;border-radius:34px;color:#E5484D;font-weight:800;font-size:120px;transform:rotate(-8deg);background:rgba(255,243,227,.85)"></div>
+<div class="abs" style="left:90px;top:620px;width:920px">
+  <div class="kicker" id="k"></div>
+  <div class="big" style="margin-top:26px" id="t"></div>
+</div>
+<div class="abs" style="left:90px;top:1440px;background:#2B1A12;color:#FFF3E3;border-radius:24px;padding:22px 36px;font-weight:800;font-size:46px" id="btn"></div>
+<div class="brand"><b>KMD Mídias Digitais</b><span>@kmdmidias</span></div>
+<script>
+const C={"s1k": "Mito ou verdade?", "s1l1": "“Os anúncios", "s1l2": "não funcionam", "s1l3": "para mim.”", "emo": "💬", "cardcap": "Mensagem nova", "chip": "Respondida… 5 h depois", "stamp": "ERRO", "s2t1": "O anúncio trouxe", "s2t2": "a <span class=hl>conversa</span>.", "s2b": "O cliente foi-se porque <b style='color:#2B1A12'>ninguém respondeu a tempo</b>.", "s3k": "O que muda", "s3t1": "Responder em", "s3t2": "5 horas vs 5 min", "ca": "5 HORAS", "cb": "5 MIN", "rows": [["Cliente ainda interessado", "✕", "✓"], ["Ainda sem falar com outro", "✕", "✓"], ["Dúvida tirada na hora", "✕", "✓"], ["Marcação feita logo", "✕", "✓"]], "s4k": "Exemplo ilustrativo", "s4t1": "10 mensagens", "s4t2": "num só dia", "aemo": "💬", "anum": 10, "asuf": "", "alab": "mensagens trazidas pelo anúncio", "bemo": "⏰", "btxt": "0", "blab": "respondidas na primeira hora", "bGood": false, "s4b": "Anúncio sem resposta rápida é <b style='color:#2B1A12'>dinheiro deitado fora.</b>", "s5k": "Não perca mais nenhuma", "s5l1": "Responda em", "s5l2": "minutos.", "kw": "RESPOSTA", "s5b": "🔁 Envie a quem demora a responder.", "capaK": "Mito ou verdade?", "capaT": "“Os anúncios<br><span class=hl>não funcionam</span><br>para mim.”", "capaBtn": "O problema é outro ▶"};
+document.getElementById('emo').textContent=C.emo; document.getElementById('stamp').textContent=C.stamp;
+const sc=C.stampColor||'#E5484D'; const st=document.getElementById('stamp'); st.style.borderColor=sc; st.style.color=sc;
+document.getElementById('k').innerHTML=C.capaK; document.getElementById('t').innerHTML=C.capaT; document.getElementById('btn').innerHTML=C.capaBtn||'Veja antes de anunciar ▶';
+</script></body></html>

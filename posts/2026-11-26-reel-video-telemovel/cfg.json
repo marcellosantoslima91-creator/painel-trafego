@@ -1,0 +1,60 @@
+{
+ "s1k": "Mito ou verdade?",
+ "s1l1": "“O anúncio precisa",
+ "s1l2": "de fotos",
+ "s1l3": "profissionais.”",
+ "emo": "🖼️",
+ "cardcap": "Foto de banco de imagens",
+ "chip": "Bonita… mas genérica",
+ "stamp": "MITO",
+ "s2t1": "As pessoas confiam",
+ "s2t2": "em <span class=hl>pessoas reais</span>.",
+ "s2b": "O seu espaço, a sua equipa e o seu produto, <b style='color:#2B1A12'>filmados com o telemóvel</b>.",
+ "s3k": "O que muda",
+ "s3t1": "Banco de imagens",
+ "s3t2": "vs telemóvel",
+ "ca": "BANCO",
+ "cb": "TELEMÓVEL",
+ "rows": [
+  [
+   "Mostra o seu espaço",
+   "✕",
+   "✓"
+  ],
+  [
+   "Mostra a sua equipa",
+   "✕",
+   "✓"
+  ],
+  [
+   "Parece mesmo seu",
+   "✕",
+   "✓"
+  ],
+  [
+   "Faz-se em 5 minutos",
+   "✕",
+   "✓"
+  ]
+ ],
+ "s4k": "Receita rápida",
+ "s4t1": "Um vídeo de",
+ "s4t2": "15 segundos",
+ "aemo": "🎬",
+ "anum": 15,
+ "asuf": " s",
+ "alab": "chegam para um bom anúncio",
+ "bemo": "📱",
+ "btxt": "3 takes",
+ "blab": "espaço · produto · pessoa",
+ "bGood": true,
+ "s4b": "Luz natural, telemóvel na vertical, <b style='color:#2B1A12'>sem música com direitos.</b>",
+ "s5k": "Não sabe o que filmar?",
+ "s5l1": "Pegue no",
+ "s5l2": "telemóvel.",
+ "kw": "FILMAR",
+ "s5b": "🔁 Envie a quem acha que precisa de fotógrafo.",
+ "capaK": "Mito ou verdade?",
+ "capaT": "“Anúncio só<br>com fotos<br><span class=hl>profissionais</span>.”",
+ "capaBtn": "Veja o que resulta ▶"
+}

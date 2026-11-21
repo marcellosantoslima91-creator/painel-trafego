@@ -1,0 +1,60 @@
+{
+ "s1k": "Mito ou verdade?",
+ "s1l1": "“Os anúncios",
+ "s1l2": "não funcionam",
+ "s1l3": "para mim.”",
+ "emo": "💬",
+ "cardcap": "Mensagem nova",
+ "chip": "Respondida… 5 h depois",
+ "stamp": "ERRO",
+ "s2t1": "O anúncio trouxe",
+ "s2t2": "a <span class=hl>conversa</span>.",
+ "s2b": "O cliente foi-se porque <b style='color:#2B1A12'>ninguém respondeu a tempo</b>.",
+ "s3k": "O que muda",
+ "s3t1": "Responder em",
+ "s3t2": "5 horas vs 5 min",
+ "ca": "5 HORAS",
+ "cb": "5 MIN",
+ "rows": [
+  [
+   "Cliente ainda interessado",
+   "✕",
+   "✓"
+  ],
+  [
+   "Ainda sem falar com outro",
+   "✕",
+   "✓"
+  ],
+  [
+   "Dúvida tirada na hora",
+   "✕",
+   "✓"
+  ],
+  [
+   "Marcação feita logo",
+   "✕",
+   "✓"
+  ]
+ ],
+ "s4k": "Exemplo ilustrativo",
+ "s4t1": "10 mensagens",
+ "s4t2": "num só dia",
+ "aemo": "💬",
+ "anum": 10,
+ "asuf": "",
+ "alab": "mensagens trazidas pelo anúncio",
+ "bemo": "⏰",
+ "btxt": "0",
+ "blab": "respondidas na primeira hora",
+ "bGood": false,
+ "s4b": "Anúncio sem resposta rápida é <b style='color:#2B1A12'>dinheiro deitado fora.</b>",
+ "s5k": "Não perca mais nenhuma",
+ "s5l1": "Responda em",
+ "s5l2": "minutos.",
+ "kw": "RESPOSTA",
+ "s5b": "🔁 Envie a quem demora a responder.",
+ "capaK": "Mito ou verdade?",
+ "capaT": "“Os anúncios<br><span class=hl>não funcionam</span><br>para mim.”",
+ "capaBtn": "O problema é outro ▶"
+}
