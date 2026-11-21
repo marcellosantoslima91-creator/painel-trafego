@@ -10,3 +10,4 @@
 | 2026-11-19 | Carrossel 6 | Quanto investir por mês em anúncios? (valor do cliente, exemplo café, 3 perguntas, CTA ORÇAMENTO) | Publicado 9h (Claude, aprovado) | media id 18119680277103322 |
 | 2026-11-18 | Stories x3 | Reforço post Google; Caixa de perguntas "maior dúvida sobre anúncios"; Spoiler post orçamento 19/11 9h (slide desfocado) | Story 3 publicado 21:07 (Claude, aprovado); 1 e 2 por publicar | media id 18139125169628850 |
 | 2026-11-20 | Imagem única | Mito: preciso de muitos seguidores para vender com anúncios (CTA VENDER) | Publicado 8h (Claude, aprovado) | media id 18192967021409046 |
+| 2026-11-21 | Carrossel 7 | Checklist: antes de ligar o primeiro anúncio (oferta, zona, contacto, resposta, perfil; CTA CHECKLIST) | Publicado 9h (Claude, aprovado) | https://www.instagram.com/p/Df_3JEIjVzE/ (media id 18122018828095696) |
