@@ -1,6 +1,6 @@
 # Reel — reel video telemovel
 
-- Formato: Reel animado 1080x1920, 20 s, som próprio (tools/reel_animado/build.py cfg.json)
+- Formato: Reel animado 1080x1920, 20 s — estilo: ecrã de câmara REC · lo-fi 82 BPM (tools/reel_animado/v2/reels/r4_telemovel.html)
 - Estado: a aguardar aprovação do Marcello
 - Data proposta: Qui 26/11 12:30
 

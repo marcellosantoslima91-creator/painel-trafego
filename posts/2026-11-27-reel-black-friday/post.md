@@ -1,6 +1,6 @@
 # Reel — reel black friday
 
-- Formato: Reel animado 1080x1920, 20 s, som próprio (tools/reel_animado/build.py cfg.json)
+- Formato: Reel animado 1080x1920, 20 s — estilo: néon preto e rosa · house 124 BPM (tools/reel_animado/v2/reels/r5_black.html)
 - Estado: a aguardar aprovação do Marcello
 - Data proposta: Sex 27/11 12:30
 

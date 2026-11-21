@@ -1,0 +1,103 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#0E1A2B;font-family:Montserrat,sans-serif;color:#EAF2FF;position:relative}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+#map{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.t{font-weight:800;font-size:86px;line-height:1.05;letter-spacing:-2px;text-shadow:0 4px 30px #0E1A2B}
+.c{color:#3DD6C6}.r{color:#FF5A5F}
+.lab{background:#FF5A5F;color:#fff;font-weight:800;font-size:46px;padding:14px 30px;border-radius:40px}
+.tip{background:rgba(14,26,43,.92);border:3px solid #3DD6C6;border-radius:28px;padding:22px 32px;font-weight:700;font-size:40px;display:flex;gap:24px;align-items:center}
+.n{width:70px;height:70px;border-radius:50%;background:#3DD6C6;color:#0E1A2B;display:flex;align-items:center;justify-content:center;font-weight:800;flex:none}
+.foot{position:absolute;left:90px;right:90px;bottom:230px;display:flex;justify-content:space-between;font-size:30px;color:#7F93B0;font-weight:600}
+.foot b{color:#EAF2FF}
+</style></head><body>
+<svg id="map" viewBox="0 0 1080 1920">
+  <defs><pattern id="gr" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#1B2C45" stroke-width="2"/></pattern>
+  <radialGradient id="rg"><stop offset="0" stop-color="#3DD6C6" stop-opacity=".25"/><stop offset="1" stop-color="#3DD6C6" stop-opacity=".05"/></radialGradient>
+  <radialGradient id="rr"><stop offset="0" stop-color="#FF5A5F" stop-opacity=".18"/><stop offset="1" stop-color="#FF5A5F" stop-opacity=".04"/></radialGradient></defs>
+  <rect width="1080" height="1920" fill="url(#gr)"/>
+  <g stroke="#22385A" stroke-width="18" fill="none" stroke-linecap="round">
+    <path d="M-40 700 C 300 640, 600 820, 1120 760"/><path d="M380 -40 C 420 600, 600 1200, 520 1960"/><path d="M-40 1300 C 400 1220, 700 1400, 1120 1280"/><path d="M900 -40 C 820 700, 980 1300, 860 1960"/>
+  </g>
+  <path d="M-40 1050 C 200 980, 400 1120, 640 1040 S 1000 980, 1120 1060" stroke="#1E4A6B" stroke-width="40" fill="none" opacity=".7"/>
+  <g id="radar" transform="translate(540 1000)">
+    <circle id="circ" r="100" fill="url(#rr)" stroke="#FF5A5F" stroke-width="6" stroke-dasharray="20 14"/>
+    <g id="sweep" opacity="0"><path d="M0 0 L 330 0 A330 330 0 0 0 233 -233 Z" fill="#3DD6C6" opacity=".25"/><line x1="0" y1="0" x2="330" y2="0" stroke="#3DD6C6" stroke-width="5"/></g>
+  </g>
+  <g id="dots"></g>
+  <g transform="translate(540 1000)" id="pin"><path d="M0 0 C -40 -60 -70 -90 -70 -130 a70 70 0 0 1 140 0 C 70 -90 40 -60 0 0z" fill="#FF5A5F"/><circle cy="-130" r="28" fill="#fff"/></g>
+</svg>
+
+<div class="scene" id="s1">
+  <div class="abs t" style="left:90px;right:90px;top:260px" id="s1t">Anunciar para<br><span class="r">50 km</span> à volta?</div>
+  <div class="abs lab" style="left:600px;top:560px" id="s1l">Raio: 50 km</div>
+</div>
+<div class="scene" id="s2">
+  <div class="abs t" style="left:90px;right:90px;top:260px" id="s2t">A maioria<br><span class="r">nunca vai aparecer</span>.</div>
+  <div class="abs" style="left:90px;right:90px;top:1520px;font-size:42px;font-weight:600;color:#B5C4DA" id="s2b">E o orçamento é gasto com eles.</div>
+</div>
+<div class="scene" id="s3">
+  <div class="abs t" style="left:90px;right:90px;top:260px" id="s3t"><span class="c">3 a 5 km</span>:<br>onde estão os<br>seus clientes.</div>
+  <div class="abs lab" style="left:620px;top:1240px;background:#3DD6C6;color:#0E1A2B" id="s3l">Raio: 5 km</div>
+</div>
+<div class="scene" id="s4">
+  <div class="abs t" style="left:90px;right:90px;top:260px;font-size:76px" id="s4t">Regras para<br><span class="c">o raio certo</span></div>
+  <div class="abs" style="left:70px;right:70px;top:1170px;display:flex;flex-direction:column;gap:18px">
+    <div class="tip" id="p1"><div class="n">1</div>Centro na morada do negócio</div>
+    <div class="tip" id="p2"><div class="n">2</div>Comece com 3 a 5 km</div>
+    <div class="tip" id="p3"><div class="n">3</div>Alargue só se faltar alcance</div>
+  </div>
+</div>
+<div class="scene" id="s5">
+  <div class="abs t" style="left:90px;right:90px;top:260px" id="s5t">Anuncie onde<br><span class="c">o cliente está</span>.</div>
+  <div class="abs" style="left:250px;right:250px;top:600px;background:#fff;color:#0E1A2B;border-radius:34px;padding:34px;text-align:center;font-weight:800;font-size:56px;box-shadow:0 20px 60px rgba(0,0,0,.4)" id="bub">Comente<br><span style="color:#FF5A5F;font-size:96px">RAIO</span></div>
+  <div class="abs" style="left:90px;right:90px;top:1300px;font-size:42px;font-weight:600;color:#B5C4DA;line-height:1.4;text-align:center" id="s5b">e digo-lhe o raio certo<br>para o seu negócio 📍</div>
+</div>
+<div class="scene" id="cover" style="display:none">
+  <div class="abs" style="left:0;right:0;top:0;height:760px;background:linear-gradient(#0E1A2B 75%,rgba(14,26,43,0))"></div>
+  <div class="abs t" style="left:90px;right:90px;top:240px;font-size:116px">O raio errado<br>está a gastar<br><span class="r">o seu dinheiro</span>.</div>
+  <div class="abs lab" style="left:560px;top:1380px;font-size:60px">50 km? ✕</div>
+</div>
+<div class="foot"><b>KMD Mídias Digitais</b><span>@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=20; window.S=[[0,4],[4,8],[8,12.4],[12.4,16.4],[16.4,20]]; window.STYLE="ambient";
+// pontos (clientes): perto (r<170) e longe
+const NS='http://www.w3.org/2000/svg'; const dots=[]; let seed=3; const rnd=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};
+for(let i=0;i<70;i++){ const near=i<16; const a=rnd()*6.283; const r=near? 60+rnd()*150 : 260+rnd()*560; const x=540+Math.cos(a)*r, y=1000+Math.sin(a)*r*1.1;
+  const c=document.createElementNS(NS,'circle'); c.setAttribute('cx',x); c.setAttribute('cy',y); c.setAttribute('r',13); $('dots').appendChild(c); dots.push({c,near,d:rnd()}); }
+window.SFX=mkSFX(window.S,[[0,0.2,"pop",0.4,500],[0,0.9,"whoosh",0.45,1.2],[0,2.2,"ding",0.35,1318],
+ [1,0.6,"whooshdown",0.2,0.8],[1,0.8,"tick",0.1],[1,1.1,"tick",0.1],[1,1.4,"tick",0.1],[1,1.7,"tick",0.1],[1,2.0,"tick",0.1],[1,2.4,"buzz",0.25],
+ [2,0.4,"whooshdown",0.4,0.9],[2,1.4,"ding",0.25,1318],[2,1.6,"ding",0.25,1480],[2,1.8,"ding",0.25,1661],[2,2.0,"ding",0.25,1760],[2,2.6,"pop",0.35,700],
+ [3,0.4,"whoosh",0.2,0.6],[3,1.0,"pop",0.35,600],[3,1.6,"pop",0.35,700],[3,2.2,"pop",0.35,800],
+ [4,0.6,"pop",0.45,520],[4,0.65,"ding",0.3,1760],[4,1.6,"notif",0.3]],'whoosh');
+function setTime(t){
+  const S=window.S; scenes(t,S,'zoom');
+  // estado do mapa contínuo
+  let R=100, col='#FF5A5F', fill='url(#rr)';
+  const l0=t; R=100+eOut(p(l0,0.9,1.2))*720;
+  const l2=L(t,S,2); if(t>=S[2][0]-0.25){ R=820-eIO(p(l2,0.4,1.0))*620; col='#3DD6C6'; fill='url(#rg)'; }
+  $('circ').setAttribute('r',R); $('circ').setAttribute('stroke',col); $('circ').setAttribute('fill',fill);
+  $('circ').setAttribute('stroke-dashoffset', -t*40);
+  const l1=L(t,S,1);
+  dots.forEach((o,i)=>{ let op=eOut(p(t,0.3+o.d*1.2,0.3)), color='#EAF2FF';
+    if(!o.near && t>=S[1][0]-0.25){ const k=p(l1,0.8+o.d*1.3,0.3); color=k>0?'#41546F':'#EAF2FF'; }
+    if(o.near && t>=S[2][0]-0.25){ const k=p(l2,1.4+o.d*0.7,0.25); if(k>0) color='#3DD6C6'; o.c.setAttribute('r',13+6*eBack(k)*(k<1?1:1)); }
+    if(!o.near && t>=S[2][0]-0.25){ op*=1-0.6*p(l2,0.4,1.0); }
+    o.c.setAttribute('fill',color); o.c.setAttribute('opacity',op); });
+  const l3=L(t,S,3); const sw=t>=S[3][0]-0.25 && t<S[4][0]; $('sweep').setAttribute('opacity',sw?1:0); $('sweep').setAttribute('transform',`rotate(${l3*140})`);
+  // pin
+  { const k=p(t,0,0.5); const bounce=t>S[4][0]-0.25? Math.abs(Math.sin((L(t,S,4))*4))*-20:0; $('pin').setAttribute('transform',`translate(540 ${1000-(1-eOut(k))*300+bounce})`); }
+  // mapa: leve zoom contínuo
+  const z=1+0.06*Math.sin(t*0.3); $('map').style.transform=`scale(${z})`;
+  let l=L(t,S,0); rise('s1t',l,0.1); pop('s1l',l,2.2,.4);
+  l=l1; rise('s2t',l,0.1); rise('s2b',l,2.4);
+  l=l2; rise('s3t',l,0.1); pop('s3l',l,2.6,.4);
+  l=l3; rise('s4t',l,0.1); slide('p1',l,1.0,.35,-400); slide('p2',l,1.6,.35,-400); slide('p3',l,2.2,.35,-400);
+  l=L(t,S,4); rise('s5t',l,0.1); pop('bub',l,0.6,.5); rise('s5b',l,1.4);
+}
+function showCover(){ document.querySelectorAll('.scene').forEach(e=>e.style.opacity=0); setTime(2.5); document.querySelectorAll('.scene').forEach(e=>e.style.opacity=0); $('cover').style.display='block'; $('cover').style.opacity=1; }
+setTime(0);
+</script></body></html>

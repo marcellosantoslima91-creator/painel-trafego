@@ -1,0 +1,102 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#F3F6FB;font-family:'DM Sans',Inter,sans-serif;color:#0F172A;position:relative}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.serif{font-family:Lora,serif}
+.t{font-family:Lora,serif;font-weight:700;font-size:92px;line-height:1.08;letter-spacing:-1px}
+.b{color:#2563EB}.mut{color:#64748B}
+.panel{background:#fff;border-radius:36px;box-shadow:0 20px 60px rgba(15,23,42,.08);border:2px solid #E2E8F0}
+.toggle{width:190px;height:104px;border-radius:52px;background:#22C55E;position:relative}
+.knob{position:absolute;top:10px;left:96px;width:84px;height:84px;border-radius:50%;background:#fff;box-shadow:0 4px 10px rgba(0,0,0,.2)}
+.rule{display:flex;gap:30px;align-items:center;padding:34px 40px;font-size:48px;font-weight:700}
+.num{width:84px;height:84px;border-radius:24px;background:#DBEAFE;color:#2563EB;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:44px;flex:none}
+.foot{position:absolute;left:90px;right:90px;bottom:300px;display:flex;justify-content:space-between;font-size:30px;color:#94A3B8;font-weight:600}
+.foot b{color:#0F172A}
+</style></head><body>
+
+<div class="scene" id="s1">
+  <div class="abs t" style="left:90px;right:90px;top:280px" id="s1t">Dia 1.<br><span class="mut">0 mensagens.</span></div>
+  <div class="abs panel" style="left:90px;right:90px;top:640px;padding:44px" id="p1">
+    <div style="font-size:34px;font-weight:700" class="mut">Campanha · Mensagens</div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:30px">
+      <div><div style="font-size:120px;font-weight:800;line-height:1">0</div><div class="mut" style="font-size:32px">conversas iniciadas</div></div>
+      <div style="text-align:center"><div class="toggle" id="tg"><div class="knob" id="kn"></div></div><div style="font-size:30px;font-weight:700;margin-top:12px" id="tgl">Ativo</div></div>
+    </div>
+  </div>
+  <svg class="abs" style="left:800px;top:1100px" width="120" height="150" viewBox="0 0 120 150" id="cur"><path d="M10 5 L10 120 L38 92 L58 140 L76 132 L56 86 L95 86z" fill="#0F172A" stroke="#fff" stroke-width="6"/></svg>
+  <div class="abs t" style="left:90px;right:90px;top:1260px;font-size:84px" id="s1q">Desligar?</div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs t" style="left:90px;right:90px;top:360px;font-size:160px" id="s2t">Calma.</div>
+  <div class="abs" style="left:90px;right:90px;top:640px;font-size:54px;line-height:1.4;font-weight:500" id="s2b">Nos primeiros dias, o Meta ainda está a <b class="b">aprender a quem mostrar</b> o seu anúncio.</div>
+  <div class="abs" style="left:90px;top:1000px;display:flex;gap:16px" id="brain"><div style="font-size:120px">🧠</div><div style="font-size:120px" id="dots">…</div></div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs t" style="left:90px;right:90px;top:260px;font-size:80px" id="s3t">Dê-lhe <span class="b">3 a 7 dias</span></div>
+  <div class="abs panel" style="left:60px;right:60px;top:500px;height:860px;padding:40px" id="chart">
+    <div class="mut" style="font-size:30px;font-weight:700">Conversas por dia · <i>exemplo ilustrativo</i></div>
+    <svg width="880" height="680" viewBox="0 0 880 680" style="margin-top:20px">
+      <rect x="40" y="20" width="300" height="580" fill="#FEF3C7" id="learn"/>
+      <text x="60" y="70" font-size="30" font-weight="700" fill="#B45309" font-family="DM Sans">Fase de aprendizagem</text>
+      <g stroke="#E2E8F0" stroke-width="2"><line x1="40" y1="600" x2="860" y2="600"/><line x1="40" y1="450" x2="860" y2="450"/><line x1="40" y1="300" x2="860" y2="300"/><line x1="40" y1="150" x2="860" y2="150"/></g>
+      <path id="line" d="M40 600 L157 590 L274 560 L391 470 L508 380 L625 320 L742 270 L860 240" fill="none" stroke="#2563EB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <g font-size="28" fill="#64748B" font-family="DM Sans" font-weight="700"><text x="30" y="650">D1</text><text x="147" y="650">D2</text><text x="264" y="650">D3</text><text x="381" y="650">D4</text><text x="498" y="650">D5</text><text x="615" y="650">D6</text><text x="732" y="650">D7</text></g>
+      <circle id="hd" r="18" fill="#2563EB" stroke="#fff" stroke-width="6"/>
+    </svg>
+  </div>
+</div>
+
+<div class="scene" id="s4">
+  <div class="abs t" style="left:90px;right:90px;top:300px;font-size:84px" id="s4t">Regra KMD<br><span class="b">antes de mexer</span></div>
+  <div class="abs panel" style="left:70px;right:70px;top:640px;overflow:hidden">
+    <div class="rule" id="u1"><div class="num">1</div>Espere 3 a 7 dias</div>
+    <div class="rule" id="u2" style="border-top:2px solid #E2E8F0"><div class="num">2</div>Mude 1 coisa de cada vez</div>
+    <div class="rule" id="u3" style="border-top:2px solid #E2E8F0"><div class="num">3</div>Decida com números</div>
+  </div>
+</div>
+
+<div class="scene" id="s5">
+  <div class="abs t" style="left:90px;right:90px;top:340px" id="s5t">Paciência primeiro.<br><span class="b">Ajuste depois.</span></div>
+  <div class="abs panel" style="left:90px;right:90px;top:760px;padding:50px;text-align:center" id="cta">
+    <div style="font-size:46px;font-weight:700" class="mut">Anúncio sem resultados?</div>
+    <div style="font-size:64px;font-weight:800;margin-top:14px">Comente <span style="background:#2563EB;color:#fff;padding:4px 26px;border-radius:18px">ADS</span></div>
+  </div>
+  <div class="abs mut" style="left:90px;right:90px;top:1140px;font-size:40px;line-height:1.4;text-align:center" id="s5b">Vejo consigo o que está a acontecer.<br>🔁 Envie a quem desliga anúncios ao 1.º dia.</div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs t" style="left:90px;right:90px;top:300px;font-size:116px">1 dia sem<br>resultados?<br><span class="b">Não desligue.</span></div>
+  <div class="abs panel" style="left:90px;right:90px;top:1000px;padding:40px;display:flex;justify-content:space-between;align-items:center">
+    <div style="font-size:52px;font-weight:800">Desligar anúncio?</div><div class="toggle"><div class="knob"></div></div>
+  </div>
+</div>
+<div class="foot"><b>KMD Mídias Digitais</b><span>@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=20; window.S=[[0,4.2],[4.2,8.4],[8.4,13],[13,16.8],[16.8,20]]; window.STYLE="piano";
+window.SFX=mkSFX(window.S,[[0,0.6,"pop",0.25,500],[0,1.4,"whoosh",0.12,0.6],[0,2.5,"heartbeat",0.45],[0,3.3,"heartbeat",0.45],
+ [1,0.3,"thud",0.3],[1,0.35,"ding",0.25,1046],[1,1.2,"pop",0.2,600],[1,2.3,"pop",0.2,700],
+ [2,0.6,"pop",0.25,520],[2,1.2,"tick",0.15,2000],[2,1.6,"tick",0.15,2100],[2,2.0,"tick",0.15,2200],[2,2.4,"tick",0.15,2300],[2,2.8,"tick",0.15,2400],[2,3.2,"tick",0.15,2500],[2,3.6,"ding",0.3,1568],
+ [3,0.8,"pop",0.25,600],[3,1.4,"pop",0.25,700],[3,2.0,"pop",0.25,800],
+ [4,0.7,"pop",0.3,520],[4,0.75,"ding",0.25,1318]],'whoosh');
+const line=document.getElementById('line'); const LEN=line.getTotalLength(); line.style.strokeDasharray=LEN;
+function setTime(t){
+  const S=window.S; scenes(t,S,'rise'); let l;
+  l=L(t,S,0); rise('s1t',l,0.1); rise('p1',l,0.6);
+  { const k=eIO(p(l,1.4,1.0)); tf("cur",{x:(1-k)*-250,y:(1-k)*300 - k*330 + (l>2.5&&l<2.7?10:0),o:cl(p(l,1.3,.3)*3)}); }
+  { const press=l>2.5&&l<2.8; $('kn').style.transform=`translateX(${press?-20:0}px)`; }
+  rise('s1q',l,2.4);
+  l=L(t,S,1); rise('s2t',l,0.2); rise('s2b',l,1.0); rise('brain',l,2.0); $('dots').textContent='.'.repeat(1+((Math.floor(Math.max(0,l)*3)%3)+3)%3);
+  { const blocked=t>=S[1][0]-0.25; $('tg').style.background='#22C55E'; }
+  l=L(t,S,2); rise('s3t',l,0.1); rise('chart',l,0.5);
+  { const k=p(l,1.0,2.8); line.style.strokeDashoffset=LEN*(1-k); const pt=line.getPointAtLength(LEN*k); $('hd').setAttribute('cx',pt.x); $('hd').setAttribute('cy',pt.y); }
+  l=L(t,S,3); rise('s4t',l,0.1); [1,2,3].forEach(i=>slide('u'+i,l,0.6+(i-1)*0.6,.4,-200));
+  l=L(t,S,4); rise('s5t',l,0.1); pop('cta',l,0.6,.5); rise('s5b',l,1.3);
+}
+function showCover(){ document.querySelectorAll('.scene').forEach(e=>e.style.opacity=0); $('cover').style.display='block'; $('cover').style.opacity=1; }
+setTime(0);
+</script></body></html>

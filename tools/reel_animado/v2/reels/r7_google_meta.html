@@ -1,0 +1,94 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#fff;font-family:Roboto,sans-serif;color:#202124;position:relative}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+#L{position:absolute;left:0;top:0;width:540px;height:1920px;background:#F8FAFF}
+#R{position:absolute;left:540px;top:0;width:540px;height:1920px;background:linear-gradient(160deg,#3A1C71,#6A2C91 50%,#C2417E)}
+.t{font-weight:900;font-size:90px;line-height:1.05;letter-spacing:-1px}
+.search{background:#fff;border-radius:60px;box-shadow:0 6px 24px rgba(32,33,36,.18);height:120px;display:flex;align-items:center;padding:0 40px;gap:24px;font-size:46px}
+.side{font-weight:900;font-size:76px;letter-spacing:2px}
+.it{border-radius:22px;padding:22px 26px;font-size:38px;font-weight:700;margin-bottom:20px}
+.itL{background:#fff;border:3px solid #D2E3FC;color:#1A56DB}
+.itR{background:rgba(255,255,255,.14);border:3px solid rgba(255,255,255,.35);color:#fff}
+.vs{width:200px;height:200px;border-radius:50%;background:#111;color:#FFD400;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:90px;border:10px solid #fff;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.btn{border-radius:30px;padding:40px;font-weight:900;font-size:60px;text-align:center}
+.foot{position:absolute;left:90px;right:90px;bottom:300px;display:flex;justify-content:space-between;font-size:30px;font-weight:700}
+</style></head><body>
+<div id="L"></div><div id="R"></div>
+
+<div class="scene" id="s1">
+  <div class="abs" style="left:0;right:0;top:0;bottom:0;background:#fff"></div>
+  <div class="abs" style="left:0;right:0;top:330px;text-align:center;font-weight:900;font-size:120px;letter-spacing:-3px;color:#1A56DB" id="lg">Pesquisa</div>
+  <div class="abs search" style="left:80px;right:80px;top:540px" id="sb"><span style="font-size:50px">🔍</span><span id="q"></span><span id="car" style="color:#1A56DB">|</span></div>
+  <div class="abs" style="left:80px;right:80px;top:720px;font-size:36px;color:#5F6368" id="res">Cerca de 2 340 000 resultados · <b style="color:#202124">pessoas à procura agora</b></div>
+  <div class="abs t" style="left:80px;right:80px;top:1000px" id="s1t">“Para o meu negócio<br>só preciso de<br><span style="color:#C2417E">Instagram</span>.”</div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs" style="left:40px;width:460px;top:420px;text-align:center" id="l2"><div style="font-size:150px">🔍</div><div class="side" style="color:#1A56DB">PROCURA</div><div style="font-size:38px;color:#5F6368;margin-top:14px;font-weight:700">já sabe o que quer</div></div>
+  <div class="abs" style="left:580px;width:460px;top:420px;text-align:center;color:#fff" id="r2"><div style="font-size:150px">✨</div><div class="side">DESCOBRE</div><div style="font-size:38px;margin-top:14px;font-weight:700;opacity:.85">ainda não sabia</div></div>
+  <div class="abs vs" style="left:440px;top:900px" id="vs">VS</div>
+  <div class="abs" style="left:40px;width:460px;top:1200px;text-align:center;font-weight:900;font-size:64px;color:#1A56DB" id="gl">GOOGLE</div>
+  <div class="abs" style="left:580px;width:460px;top:1200px;text-align:center;font-weight:900;font-size:64px;color:#fff" id="ml">META</div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs" style="left:40px;width:460px;top:300px;font-weight:900;font-size:56px;color:#1A56DB" id="h3l">Google ganha</div>
+  <div class="abs" style="left:580px;width:460px;top:300px;font-weight:900;font-size:56px;color:#fff" id="h3r">Meta ganha</div>
+  <div class="abs" style="left:40px;width:460px;top:440px">
+    <div class="it itL" id="a1">🚰 Canalizador urgente</div><div class="it itL" id="a2">🦷 Dentista perto de mim</div><div class="it itL" id="a3">📱 Reparar telemóvel</div><div class="it itL" id="a4">🔑 Chaveiro 24 h</div>
+  </div>
+  <div class="abs" style="left:580px;width:460px;top:440px">
+    <div class="it itR" id="b1">🎂 Bolos por encomenda</div><div class="it itR" id="b2">💅 Estética e unhas</div><div class="it itR" id="b3">🍝 Restaurante novo</div><div class="it itR" id="b4">🏋️ Ginásio / estúdio</div>
+  </div>
+  <div class="abs" style="left:40px;right:40px;top:1240px;background:#111;color:#FFD400;border-radius:26px;padding:30px;text-align:center;font-weight:900;font-size:44px" id="both">Muitos negócios ganham com os dois.</div>
+</div>
+
+<div class="scene" id="s4">
+  <div class="abs" style="left:0;right:0;top:0;bottom:0;background:#111"></div>
+  <div class="abs t" style="left:80px;right:80px;top:330px;color:#fff;text-align:center" id="s4t">O cliente já<br>procura por si?</div>
+  <div class="abs btn" style="left:80px;width:440px;top:760px;background:#1A56DB;color:#fff" id="y">SIM<div style="font-size:46px;margin-top:10px">→ Google</div></div>
+  <div class="abs btn" style="left:560px;width:440px;top:760px;background:linear-gradient(160deg,#6A2C91,#C2417E);color:#fff" id="n">NÃO<div style="font-size:46px;margin-top:10px">→ Meta</div></div>
+</div>
+
+<div class="scene" id="s5">
+  <div class="abs" style="left:0;right:0;top:0;bottom:0;background:#111"></div>
+  <div class="abs t" style="left:80px;right:80px;top:330px;color:#fff" id="s5t">Comece pelo<br><span style="color:#FFD400">canal certo</span>.</div>
+  <div class="abs search" style="left:80px;right:80px;top:700px" id="sb2"><span style="font-size:50px">💬</span><span style="color:#5F6368">Comente</span><b id="kw" style="color:#1A56DB"></b></div>
+  <div class="abs" style="left:80px;right:80px;top:900px;font-size:42px;line-height:1.4;color:#ddd;font-weight:500" id="s5b">e digo-lhe por onde começar no seu caso.<br>🔁 Envie a quem só aposta no Instagram.</div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs" style="left:40px;width:460px;top:330px;text-align:center"><div style="font-size:150px">🔍</div><div class="side" style="color:#1A56DB">GOOGLE</div></div>
+  <div class="abs" style="left:580px;width:460px;top:330px;text-align:center;color:#fff"><div style="font-size:150px">✨</div><div class="side">META</div></div>
+  <div class="abs vs" style="left:440px;top:720px">VS</div>
+  <div class="abs" style="left:60px;right:60px;top:1000px;background:#111;color:#fff;border-radius:30px;padding:40px;text-align:center;font-weight:900;font-size:66px;line-height:1.1">Qual é o certo<br>para <span style="color:#FFD400">o seu negócio</span>?</div>
+</div>
+<div class="foot"><span style="color:#1A56DB">KMD Mídias Digitais</span><span style="color:#fff">@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=20; window.S=[[0,4],[4,8],[8,12.6],[12.6,16.6],[16.6,20]]; window.STYLE="trap";
+const keys=[]; for(let i=0;i<21;i++) keys.push([0,0.7+i*0.055,"key",0.3]);
+window.SFX=mkSFX(window.S,[...keys,[0,2.0,"pop",0.25,600],[0,2.5,"whoosh",0.25,0.4],
+ [1,0.3,"swipe",0.5],[1,0.5,"swipe",0.5],[1,1.2,"impact",0.6],[1,2.0,"pop",0.3,500],[1,2.2,"pop",0.3,700],
+ [2,0.3,"pop",0.25,500],[2,0.7,"pop",0.25,560],[2,0.95,"pop",0.25,620],[2,1.2,"pop",0.25,680],[2,1.45,"pop",0.25,740],[2,1.7,"pop",0.25,800],[2,1.95,"pop",0.25,860],[2,2.2,"pop",0.25,920],[2,2.45,"pop",0.25,980],[2,3.2,"impact",0.4],
+ [3,0.3,"whoosh",0.3,0.4],[3,1.4,"thud",0.6],[3,1.9,"thud",0.6],[3,2.6,"ding",0.25,1760],
+ [4,0.3,"pop",0.3,500],[4,0.9,"key",0.3],[4,1.0,"key",0.3],[4,1.1,"key",0.3],[4,1.2,"key",0.3],[4,1.3,"key",0.3],[4,1.4,"key",0.3],[4,1.6,"bass_drop",0.5]],'swipe');
+function setTime(t){
+  const S=window.S; scenes(t,S,'slide'); let l;
+  l=L(t,S,0); rise('lg',l,0.1); rise('sb',l,0.3); typeText('q','dentista perto de mim',l,0.7,1.15); $('car').style.opacity=Math.floor(l*3)%2?0:1;
+  rise('res',l,2.0); rise('s1t',l,2.5);
+  l=L(t,S,1);
+  { const k=eOut(p(l,0.3,0.5)); $('L').style.transform=`translateX(${-(1-k)*540}px)`; const k2=eOut(p(l,0.5,0.5)); $('R').style.transform=`translateX(${(1-k2)*540}px)`; }
+  rise('l2',l,0.8); rise('r2',l,0.9); slam('vs',l,1.2,.3,-8); pop('gl',l,2.0,.4); pop('ml',l,2.2,.4);
+  l=L(t,S,2); rise('h3l',l,0.1); rise('h3r',l,0.1);
+  [1,2,3,4].forEach(i=>{ slide('a'+i,l,0.45+(i-1)*0.5,.3,-400); slide('b'+i,l,0.7+(i-1)*0.5,.3,400); }); pop('both',l,3.2,.4);
+  l=L(t,S,3); rise('s4t',l,0.2); pop('y',l,1.4,.4,-6); pop('n',l,1.9,.4,6);
+  { const pl=l>2.6?1+0.04*Math.sin((l-2.6)*8):1; if(l>2.6){ $('y').style.transform=`scale(${pl})`; $('n').style.transform=`scale(${2-pl})`; } }
+  l=L(t,S,4); rise('s5t',l,0.1); rise('sb2',l,0.5); typeText('kw',' GOOGLE',l,0.85,0.6); rise('s5b',l,1.5);
+}
+function showCover(){ document.querySelectorAll('.scene').forEach(e=>e.style.opacity=0); $('L').style.transform='none'; $('R').style.transform='none'; $('cover').style.display='block'; $('cover').style.opacity=1; }
+setTime(0);
+</script></body></html>

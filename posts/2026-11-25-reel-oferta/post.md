@@ -1,6 +1,6 @@
 # Reel — reel oferta
 
-- Formato: Reel animado 1080x1920, 20 s, som próprio (tools/reel_animado/build.py cfg.json)
+- Formato: Reel animado 1080x1920, 20 s — estilo: montra/etiquetas amarelas · funk 108 BPM (tools/reel_animado/v2/reels/r3_oferta.html)
 - Estado: a aguardar aprovação do Marcello
 - Data proposta: Qua 25/11 12:30
 

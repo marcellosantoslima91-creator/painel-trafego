@@ -1,6 +1,6 @@
 # Reel — reel nao mexer
 
-- Formato: Reel animado 1080x1920, 20 s, som próprio (tools/reel_animado/build.py cfg.json)
+- Formato: Reel animado 1080x1920, 20 s — estilo: painel de métricas · piano calmo 76 BPM (tools/reel_animado/v2/reels/r6_paciencia.html)
 - Estado: a aguardar aprovação do Marcello
 - Data proposta: Sáb 28/11 12:30
 

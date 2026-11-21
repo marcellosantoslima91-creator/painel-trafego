@@ -1,6 +1,6 @@
 # Reel — reel raio certo
 
-- Formato: Reel animado 1080x1920, 20 s, som próprio (tools/reel_animado/build.py cfg.json)
+- Formato: Reel animado 1080x1920, 20 s — estilo: mapa/radar · música ambiente 92 BPM (tools/reel_animado/v2/reels/r2_raio.html)
 - Estado: a aguardar aprovação do Marcello
 - Data proposta: Ter 24/11 12:30
 

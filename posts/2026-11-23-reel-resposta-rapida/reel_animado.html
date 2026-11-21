@@ -1,171 +1,121 @@
-<!doctype html>
-<html><head><meta charset="utf-8">
+<!doctype html><html><head><meta charset="utf-8">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1920px;overflow:hidden}
-body{background:#FFF3E3;font-family:'Poppins',sans-serif;color:#2B1A12;position:relative}
-.blob{position:absolute;border-radius:50%}
-.scene{position:absolute;left:0;top:0;width:1080px;height:1920px;opacity:0}
-.abs{position:absolute}
-.kicker{font-family:'Inter';font-weight:700;font-size:34px;letter-spacing:6px;text-transform:uppercase;color:#FF6B2C}
-.big{font-weight:800;font-size:96px;line-height:1.03;letter-spacing:-3px}
-.mid{font-weight:800;font-size:80px;line-height:1.05;letter-spacing:-2px}
-.body{font-family:'Inter';font-weight:500;font-size:42px;line-height:1.35;color:#5A4236}
-.hl{color:#FF6B2C}
-.line{display:block;overflow:hidden}
-.line>span{display:inline-block}
-.top{position:absolute;top:0;left:0;height:16px;background:#FF6B2C}
-.brand{position:absolute;left:90px;right:90px;bottom:330px;display:flex;justify-content:space-between;font-family:'Inter';font-weight:600;font-size:30px;color:#8A6E5E}
-.brand b{color:#2B1A12}
-.card{background:#fff;border-radius:36px;box-shadow:0 24px 60px rgba(43,26,18,.12)}
-.cta{display:inline-block;background:#FF6B2C;color:#fff;font-weight:800;font-size:56px;padding:34px 60px;border-radius:24px;box-shadow:0 18px 40px rgba(255,107,44,.35)}
-.row{display:flex;align-items:center;height:104px;border-top:2px solid #F1E2D2;font-family:Inter;font-weight:600;font-size:36px}
-.row .lab{flex:1;padding-left:36px}
-.row .c{width:200px;text-align:center;font-weight:800;font-size:52px}
-.no{color:#E5484D}.yes{color:#1F9D55}
-</style></head>
-<body>
-<div id="b1" class="blob" style="width:760px;height:760px;background:#FFD8B8;left:-260px;top:120px"></div>
-<div id="b2" class="blob" style="width:620px;height:620px;background:#FFE6C9;right:-220px;top:1080px"></div>
-<div id="bar" class="top"></div>
+body{background:#0B141A;font-family:Inter,sans-serif;color:#E9EDEF;position:relative}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.wall{position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,#12333A 0,#0B141A 55%);}
+.pat{position:absolute;inset:0;opacity:.06;background-image:radial-gradient(#fff 2px,transparent 2px);background-size:46px 46px}
+.h{font-weight:800;font-size:84px;line-height:1.04;letter-spacing:-2px}
+.g{color:#25D366}.r{color:#FF5C5C}
+.notif{background:rgba(32,44,51,.95);border-radius:36px;padding:30px 36px;display:flex;gap:26px;align-items:center;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.ico{width:96px;height:96px;border-radius:24px;background:#25D366;display:flex;align-items:center;justify-content:center;font-size:56px;flex:none}
+.bub{max-width:760px;padding:26px 34px 34px;border-radius:30px;font-size:44px;line-height:1.3;position:relative;box-shadow:0 6px 0 rgba(0,0,0,.25)}
+.in{background:#202C33;border-top-left-radius:6px}
+.out{background:#005C4B;border-top-right-radius:6px;margin-left:auto}
+.tm{position:absolute;right:22px;bottom:8px;font-size:24px;color:#8696A0}
+.sys{display:inline-block;background:#182229;color:#FFD279;font-size:34px;padding:16px 30px;border-radius:18px}
+.bar{height:96px;border-radius:48px;display:flex;align-items:center;padding:0 34px;font-weight:800;font-size:40px;white-space:nowrap;overflow:hidden}
+.foot{position:absolute;left:90px;right:90px;bottom:300px;display:flex;justify-content:space-between;font-size:30px;color:#8696A0;font-weight:600}
+.foot b{color:#E9EDEF}
+</style></head><body>
+<div class="wall"></div><div class="pat"></div>
 
-<!-- CENA 1 -->
 <div class="scene" id="s1">
-  <div class="abs" style="left:90px;top:270px;width:900px">
-    <div class="kicker" id="s1k"></div>
-    <div class="big" style="margin-top:28px">
-      <span class="line"><span id="s1l1"></span></span>
-      <span class="line"><span id="s1l2" class="hl"></span></span>
-      <span class="line"><span id="s1l3"></span></span>
-    </div>
+  <div class="abs" style="left:0;right:0;top:300px;text-align:center">
+    <div style="font-size:40px;color:#8696A0;font-weight:600" id="day">sábado, 21 de novembro</div>
+    <div style="font-weight:300;font-size:250px;letter-spacing:-8px;line-height:1.05" id="clock">14:02</div>
   </div>
-  <div id="phone" class="abs card" style="left:240px;top:850px;width:600px;height:500px;border-radius:48px;overflow:hidden">
-    <div style="height:320px;background:linear-gradient(135deg,#FFD8B8,#FFB48C);display:flex;align-items:center;justify-content:center;font-size:170px" id="emo"></div>
-    <div style="padding:26px 34px;font-family:Inter;font-weight:600;font-size:30px;color:#8A6E5E" id="cardcap"></div>
+  <div class="abs notif" style="left:70px;right:70px;top:720px" id="n1">
+    <div class="ico">💬</div>
+    <div><div style="font-size:30px;color:#8696A0;font-weight:600">MENSAGEM · ANÚNCIO · agora</div><div style="font-size:42px;font-weight:600;margin-top:6px">Olá! Quanto custa para 2 pessoas?</div></div>
   </div>
-  <div id="chip" class="abs" style="left:300px;top:1300px;min-width:480px;padding:28px 40px;border-radius:24px;background:#2B1A12;color:#FFF3E3;font-family:Inter;font-weight:800;font-size:40px;text-align:center"></div>
-  <div id="ripple" class="abs" style="left:510px;top:1310px;width:60px;height:60px;border-radius:50%;border:6px solid #FF6B2C"></div>
+  <div class="abs h" style="left:90px;right:90px;top:1060px" id="s1h">O cliente perguntou às <span class="g">14:02</span>.</div>
+  <div class="abs h" style="left:90px;right:90px;top:1260px" id="s1h2">Resposta às <span class="r">19:07</span>.</div>
 </div>
-<!-- CENA 2 -->
+
 <div class="scene" id="s2">
-  <div id="mito" class="abs" style="left:120px;top:420px;width:840px;height:300px;border:16px solid #E5484D;border-radius:40px;color:#E5484D;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:170px;letter-spacing:2px"></div>
-  <div class="abs" style="left:90px;top:860px;width:900px">
-    <div class="mid"><span class="line"><span id="s2t1"></span></span><span class="line"><span id="s2t2"></span></span></div>
-    <div class="body" style="margin-top:36px" id="s2b"></div>
+  <div class="abs" style="left:0;right:0;top:0;height:200px;background:#202C33;display:flex;align-items:flex-end;padding:0 50px 30px;gap:26px">
+    <div style="width:90px;height:90px;border-radius:50%;background:#6B7C85;display:flex;align-items:center;justify-content:center;font-size:48px">👤</div>
+    <div><div style="font-size:40px;font-weight:700">Cliente do anúncio</div><div style="font-size:28px;color:#8696A0" id="st">online</div></div>
   </div>
+  <div class="abs" style="left:50px;right:50px;top:300px;display:flex;flex-direction:column;gap:30px">
+    <div class="bub in" id="b1">Olá! Quanto custa para 2 pessoas?<span class="tm">14:02</span></div>
+    <div class="bub in" id="b2">Ainda está disponível? 🙏<span class="tm">14:20</span></div>
+    <div class="bub out" id="b3">Olá! Sim, são 25€ 😊<span class="tm">19:07 ✓✓</span></div>
+    <div style="text-align:center;margin-top:20px" id="b4"><span class="sys">O cliente já marcou noutro sítio.</span></div>
+  </div>
+  <div class="abs h" style="left:90px;right:90px;top:1230px" id="s2h">Não foi o anúncio <br>que <span class="r">falhou</span>.</div>
 </div>
-<!-- CENA 3 -->
+
 <div class="scene" id="s3">
-  <div class="abs" style="left:90px;top:270px;width:900px">
-    <div class="kicker" id="s3k"></div>
-    <div class="mid" style="margin-top:20px"><span class="line"><span id="s3t1"></span></span><span class="line"><span id="s3t2" class="hl"></span></span></div>
+  <div class="abs h" style="left:90px;right:90px;top:300px" id="s3h">A corrida pelo<br><span class="g">mesmo cliente</span></div>
+  <div class="abs" style="left:90px;right:90px;top:700px">
+    <div style="font-size:34px;color:#8696A0;font-weight:700;margin-bottom:16px">CONCORRENTE</div>
+    <div class="bar" style="background:#25D366;color:#0B141A;width:120px" id="barA"><span id="tA">4 min</span></div>
+    <div style="font-size:34px;color:#8696A0;font-weight:700;margin:60px 0 16px">VOCÊ</div>
+    <div class="bar" style="background:#FF5C5C;color:#0B141A;width:120px" id="barB"><span id="tB">5 h</span></div>
   </div>
-  <div id="table" class="abs card" style="left:90px;top:720px;width:900px;overflow:hidden">
-    <div style="display:flex;height:110px;align-items:center;font-family:Inter;font-weight:800;font-size:28px;color:#8A6E5E">
-      <div style="flex:1;padding-left:36px"></div><div style="width:200px;text-align:center" id="ca"></div><div style="width:200px;text-align:center;color:#FF6B2C" id="cb"></div>
-    </div>
-    <div id="rows"></div>
-  </div>
+  <div class="abs" style="left:90px;top:1220px;font-size:60px;font-weight:800" id="win">🏁 Cliente marcou com <span class="g">o mais rápido</span>.</div>
 </div>
-<!-- CENA 4 -->
+
 <div class="scene" id="s4">
-  <div class="abs" style="left:90px;top:270px;width:900px">
-    <div class="kicker" id="s4k"></div>
-    <div class="mid" style="margin-top:20px"><span class="line"><span id="s4t1"></span></span><span class="line"><span id="s4t2"></span></span></div>
+  <div class="abs h" style="left:90px;right:90px;top:300px" id="s4h">3 regras para<br><span class="g">não perder ninguém</span></div>
+  <div class="abs" style="left:50px;right:50px;top:720px;display:flex;flex-direction:column;gap:34px">
+    <div class="bub out" style="margin-left:0;font-weight:700" id="q1">⚡ Responda em minutos</div>
+    <div class="bub out" style="margin-left:0;font-weight:700" id="q2">❓ Responda com uma pergunta</div>
+    <div class="bub out" style="margin-left:0;font-weight:700" id="q3">📅 Proponha dia e hora</div>
   </div>
-  <div id="statA" class="abs card" style="left:90px;top:720px;width:900px;height:260px;display:flex;align-items:center;gap:36px;padding:0 50px">
-    <div style="font-size:110px" id="aemo"></div>
-    <div><div style="font-weight:800;font-size:120px;line-height:1"><span id="cnt">0</span><span id="asuf" style="font-size:70px"></span></div><div style="font-family:Inter;font-weight:600;font-size:34px;color:#8A6E5E" id="alab"></div></div>
-  </div>
-  <svg id="arrow" class="abs" style="left:500px;top:995px" width="80" height="90" viewBox="0 0 80 90"><path d="M40 0 V70 M12 46 L40 76 L68 46" fill="none" stroke="#FF6B2C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg>
-  <div id="statB" class="abs card" style="left:90px;top:1100px;width:900px;height:220px;display:flex;align-items:center;gap:36px;padding:0 50px;outline-offset:-8px">
-    <div style="font-size:100px" id="bemo"></div>
-    <div><div style="font-weight:800;font-size:90px;line-height:1;white-space:nowrap" id="btxt"></div><div style="font-family:Inter;font-weight:600;font-size:34px;color:#8A6E5E" id="blab"></div></div>
-  </div>
-  <div class="abs body" style="left:90px;top:1370px;width:900px" id="s4b"></div>
 </div>
-<!-- CENA 5 -->
+
 <div class="scene" id="s5">
-  <div class="abs" style="left:90px;top:290px;width:900px">
-    <div class="kicker" id="s5k"></div>
-    <div class="big" style="margin-top:28px"><span class="line"><span id="s5l1"></span></span><span class="line"><span id="s5l2" class="hl"></span></span></div>
+  <div class="abs h" style="left:90px;right:90px;top:340px" id="s5h">Quer 3 respostas<br><span class="g">prontas a usar?</span></div>
+  <div class="abs" style="left:60px;right:60px;top:820px;display:flex;gap:20px;align-items:center" id="inp">
+    <div style="flex:1;height:130px;border-radius:65px;background:#202C33;display:flex;align-items:center;padding:0 44px;font-size:48px"><span style="color:#8696A0">Comente&nbsp;</span><b id="kw" style="color:#25D366"></b><span id="caret" style="color:#25D366">|</span></div>
+    <div style="width:130px;height:130px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;font-size:60px;color:#0B141A" id="send">➤</div>
   </div>
-  <div id="bubble" class="abs" style="left:90px;top:800px;width:900px">
-    <div style="display:flex;gap:24px;align-items:center">
-      <div style="width:110px;height:110px;border-radius:50%;background:#2B1A12;color:#FFF3E3;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:44px">K</div>
-      <div class="card" style="padding:34px 44px;font-family:Inter;font-weight:600;font-size:44px;border-bottom-left-radius:8px">Comente <b id="typed" style="color:#FF6B2C;font-family:Poppins;font-weight:800"></b></div>
-    </div>
-  </div>
-  <div id="ctabtn" class="abs" style="left:90px;top:1060px"><span class="cta">Falar com a KMD →</span></div>
-  <div class="abs body" style="left:90px;top:1300px;width:900px" id="s5b"></div>
+  <div class="abs" style="left:90px;right:90px;top:1030px;font-size:44px;color:#8696A0;line-height:1.4" id="s5b">Eu envio-lhe por mensagem.<br>🔁 Partilhe com quem demora a responder.</div>
 </div>
 
-<div class="brand"><b>KMD Mídias Digitais</b><span>@kmdmidias</span></div>
+<div class="scene" id="cover" style="display:none">
+  <div class="abs" style="left:0;right:0;top:230px;text-align:center;font-weight:300;font-size:200px;letter-spacing:-6px">19:07</div>
+  <div class="abs notif" style="left:70px;right:70px;top:520px">
+    <div class="ico">💬</div>
+    <div><div style="font-size:30px;color:#8696A0;font-weight:600">MENSAGEM · ANÚNCIO · há 5 h</div><div style="font-size:42px;font-weight:600;margin-top:6px">Olá! Quanto custa para 2 pessoas?</div></div>
+  </div>
+  <div class="abs" style="left:90px;right:90px;top:860px;font-weight:800;font-size:120px;line-height:1;letter-spacing:-3px">Respondeu<br>tarde.<br><span class="r">Perdeu o<br>cliente.</span></div>
+</div>
 
+<div class="foot"><b>KMD Mídias Digitais</b><span>@kmdmidias</span></div>
+<script src="../base.js"></script>
 <script>
-const D = 20.0;
-const S = [[0,3.6],[3.6,7.2],[7.2,11.6],[11.6,15.6],[15.6,20.0]];
-const cl = (v,a=0,b=1)=>Math.max(a,Math.min(b,v));
-const p = (t,a,d)=>cl((t-a)/d);
-const eOut = x=>1-Math.pow(1-x,3);
-const eBack = x=>{const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2);};
-const $ = id=>document.getElementById(id);
-
-const CFG = {"s1k": "Mito ou verdade?", "s1l1": "“Os anúncios", "s1l2": "não funcionam", "s1l3": "para mim.”", "emo": "💬", "cardcap": "Mensagem nova", "chip": "Respondida… 5 h depois", "stamp": "ERRO", "s2t1": "O anúncio trouxe", "s2t2": "a <span class=hl>conversa</span>.", "s2b": "O cliente foi-se porque <b style='color:#2B1A12'>ninguém respondeu a tempo</b>.", "s3k": "O que muda", "s3t1": "Responder em", "s3t2": "5 horas vs 5 min", "ca": "5 HORAS", "cb": "5 MIN", "rows": [["Cliente ainda interessado", "✕", "✓"], ["Ainda sem falar com outro", "✕", "✓"], ["Dúvida tirada na hora", "✕", "✓"], ["Marcação feita logo", "✕", "✓"]], "s4k": "Exemplo ilustrativo", "s4t1": "10 mensagens", "s4t2": "num só dia", "aemo": "💬", "anum": 10, "asuf": "", "alab": "mensagens trazidas pelo anúncio", "bemo": "⏰", "btxt": "0", "blab": "respondidas na primeira hora", "bGood": false, "s4b": "Anúncio sem resposta rápida é <b style='color:#2B1A12'>dinheiro deitado fora.</b>", "s5k": "Não perca mais nenhuma", "s5l1": "Responda em", "s5l2": "minutos.", "kw": "RESPOSTA", "s5b": "🔁 Envie a quem demora a responder.", "capaK": "Mito ou verdade?", "capaT": "“Os anúncios<br><span class=hl>não funcionam</span><br>para mim.”", "capaBtn": "O problema é outro ▶"};
-function T(id,v){ $(id).innerHTML=v; }
-(function(){
-  const c=CFG; ['s1k','s1l1','s1l2','s1l3','s2t1','s2t2','s2b','s3k','s3t1','s3t2','s4k','s4t1','s4t2','s4b','s5k','s5l1','s5l2','s5b'].forEach(k=>T(k,c[k]||''));
-  T('emo',c.emo); T('cardcap',c.cardcap); T('chip',c.chip);
-  T('mito',c.stamp); const sc=c.stampColor||'#E5484D'; $('mito').style.borderColor=sc; $('mito').style.color=sc;
-  T('ca',c.ca); T('cb',c.cb);
-  $('rows').innerHTML=c.rows.map((r,i)=>`<div class="row"><div class="lab">${r[0]}</div><div class="c ${r[1]=='✓'?'yes':'no'}" id="r${i+1}a">${r[1]}</div><div class="c ${r[2]=='✓'?'yes':'no'}" id="r${i+1}b">${r[2]}</div></div>`).join('');
-  T('aemo',c.aemo); T('asuf',c.asuf||''); T('alab',c.alab); T('bemo',c.bemo); T('btxt',c.btxt); T('blab',c.blab);
-  const bc=c.bGood?'#1F9D55':'#E5484D'; $('btxt').style.color=bc; $('statB').style.outline='8px solid '+bc;
-})();
-function tf(el, {x=0,y=0,s=1,r=0,o=1}){ el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`; el.style.opacity=o; }
-function rise(id, lt, a, d=0.4){ const k=eOut(p(lt,a,d)); tf($(id),{y:(1-k)*120,o:k}); }
-function pop(id, lt, a, d=0.5, r0=0){ const k=p(lt,a,d); const e=eBack(k); tf($(id),{s:k===0?0.001:e, r:(1-e)*r0, o:cl(k*3)}); }
+window.D=20; window.S=[[0,4],[4,8.2],[8.2,12.6],[12.6,16.4],[16.4,20]]; window.STYLE="pulse";
+window.SFX=mkSFX(window.S,[[0,0.3,"notif",0.6],[0,1.1,"pop",0.3,600],[0,2.0,"riser",0.25,1.0],[0,2.1,"tick",0.12],[0,2.3,"tick",0.12],[0,2.5,"tick",0.12],[0,2.7,"tick",0.12],[0,2.9,"tick",0.12],[0,3.05,"buzz",0.4],
+ [1,0.4,"pop",0.3,500],[1,1.0,"pop",0.3,520],[1,1.8,"pop",0.35,700],[1,2.3,"thud",0.6],[1,2.9,"pop",0.25,420],
+ [2,0.05,"pop",0.3,420],[2,0.7,"tick",0.15,3000],[2,1.3,"ding",0.4,1568],[2,2.5,"buzz",0.2],[2,3.3,"pop",0.35,600],[2,3.9,"buzz",0.3],
+ [3,0.05,"pop",0.3,420],[3,0.9,"pop",0.4,600],[3,1.5,"pop",0.4,700],[3,2.1,"pop",0.4,800],[3,2.15,"ding",0.25,1760],
+ [4,0.05,"pop",0.3,420],[4,1.0,"key",0.4],[4,1.1,"key",0.4],[4,1.2,"key",0.4],[4,1.3,"key",0.4],[4,1.4,"key",0.4],[4,1.5,"key",0.4],[4,1.6,"key",0.4],[4,1.7,"key",0.4],[4,1.95,"notif",0.45]]);
 function setTime(t){
-  $('bar').style.width = (t/D*1080)+'px';
-  tf($('b1'),{x:Math.sin(t*0.6)*40,y:Math.cos(t*0.5)*30});
-  tf($('b2'),{x:Math.cos(t*0.5)*40,y:Math.sin(t*0.7)*30});
-  S.forEach(([a,b],i)=>{
-    const el=$('s'+(i+1)); const e=i===0?1:eOut(p(t,a-0.2,0.35)); const x=(i<4)?eOut(p(t,b-0.22,0.22)):0;
-    const vis=(t>=a-0.201)&&(t<=b+0.001);
-    el.style.opacity=vis? e*(1-x):0; el.style.transform=`translateY(${(1-e)*60 - x*80}px)`;
-  });
-  let lt;
-  // cena 1
-  lt=t;
-  rise('s1k',lt,0.05,0.35); rise('s1l1',lt,0.12,0.35); rise('s1l2',lt,0.22,0.35); rise('s1l3',lt,0.32,0.35);
-  rise('phone',lt,0.6,0.5);
-  pop('chip',lt,1.95,0.4);
-  { const k=p(lt,2.0,0.5); tf($('ripple'),{s:k===0?0.001:1+k*6,o:k===0?0:(1-k)}); }
-  // cena 2
-  lt=t-S[1][0]+0.25;
-  { const k=p(lt,0.1,0.35); tf($('mito'),{s:k===0?0.001:(1+(1-eOut(k))*1.6), r:-6, o:cl(k*3)}); }
-  rise('s2t1',lt,0.7); rise('s2t2',lt,0.82); rise('s2b',lt,1.3);
-  // cena 3
-  lt=t-S[2][0]+0.25;
-  rise('s3k',lt,0.05); rise('s3t1',lt,0.15); rise('s3t2',lt,0.27);
-  rise('table',lt,0.6,0.45);
-  [1,2,3,4].forEach((r,i)=>{ const a=1.2+i*0.55; pop('r'+r+'a',lt,a,0.35); pop('r'+r+'b',lt,a+0.22,0.35); });
-  // cena 4
-  lt=t-S[3][0]+0.25;
-  rise('s4k',lt,0.05); rise('s4t1',lt,0.15); rise('s4t2',lt,0.27);
-  rise('statA',lt,0.6,0.4);
-  $('cnt').textContent = Math.round(CFG.anum*eOut(p(lt,0.8,1.2)));
-  { const k=p(lt,2.1,0.35); tf($('arrow'),{y:(1-eOut(k))*-40,o:k}); }
-  pop('statB',lt,2.4,0.5,4);
-  rise('s4b',lt,2.9);
-  // cena 5
-  lt=t-S[4][0]+0.25;
-  rise('s5k',lt,0.2); rise('s5l1',lt,0.35); rise('s5l2',lt,0.5);
-  { const k=p(lt,0.9,0.5); tf($('bubble'),{x:(1-eOut(k))*-200,o:k}); }
-  { const full='“'+CFG.kw+'”'; const n=Math.round(cl((lt-1.3)/0.7)*full.length); $('typed').textContent = full.slice(0,Math.max(1,n)); }
-  { const k=p(lt,2.1,0.5); const pulse = lt>2.6 ? 1+0.04*Math.sin((lt-2.6)*6) : 1; tf($('ctabtn'),{s:(k===0?0.001:eBack(k))*pulse,o:cl(k*3)}); }
-  rise('s5b',lt,2.7);
+  const S=window.S; scenes(t,S,'slide'); let l;
+  l=L(t,S,0);
+  { const k=p(l,0.3,0.45); tf('n1',{y:(1-eOut(k))*-260,o:k}); }
+  rise('s1h',l,1.1); rise('s1h2',l,3.0);
+  { const k=eIO(p(l,2.0,1.0)); const m=Math.round(14*60+2+k*(5*60+5)); $('clock').textContent=String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0'); $('clock').style.color=k>0.98?'#FF5C5C':'#E9EDEF'; }
+  l=L(t,S,1);
+  pop('b1',l,0.4,.35); pop('b2',l,1.0,.35); pop('b3',l,1.8,.35); rise('b4',l,2.3,.3,40); rise('s2h',l,2.9);
+  $('st').textContent = l<1.8?'online':'visto por último hoje às 14:21';
+  l=L(t,S,2);
+  rise('s3h',l,0.05);
+  { const a=eOut(p(l,0.7,0.6)); $('barA').style.width=(120+a*100)+'px'; const b=eIO(p(l,0.7,3.2)); $('barB').style.width=(120+b*780)+'px'; }
+  rise('win',l,3.3);
+  l=L(t,S,3);
+  rise('s4h',l,0.05); slide('q1',l,0.9,.35,300); slide('q2',l,1.5,.35,300); slide('q3',l,2.1,.35,300);
+  l=L(t,S,4);
+  rise('s5h',l,0.05); rise('inp',l,0.5);
+  typeText('kw','RESPOSTA',l,1.0,0.8); $('caret').style.opacity=(Math.floor(l*3)%2)?0:1;
+  { const k=p(l,1.95,.35); const s=l>1.95&&l<2.15?0.85:1; tf('send',{s:s*(l>2.3?1+0.05*Math.sin((l-2.3)*7):1)}); }
+  rise('s5b',l,2.2);
 }
+function showCover(){ document.querySelectorAll('.scene').forEach(e=>e.style.opacity=0); $('cover').style.display='block'; $('cover').style.opacity=1; }
 setTime(0);
-</script>
-</body></html>
+</script></body></html>

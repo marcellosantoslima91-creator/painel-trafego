@@ -1,0 +1,108 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#0A0A0A;font-family:'DM Sans',Inter,sans-serif;color:#fff;position:relative}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.mono{font-family:'Anonymous Pro','DejaVu Sans Mono',monospace}
+.vf{position:absolute;left:60px;right:60px;top:180px;bottom:220px;pointer-events:none}
+.cn{position:absolute;width:90px;height:90px;border:8px solid #fff}
+.grid{position:absolute;inset:0;background:linear-gradient(90deg,transparent 33.2%,rgba(255,255,255,.18) 33.3%,transparent 33.5%,transparent 66.5%,rgba(255,255,255,.18) 66.6%,transparent 66.8%),linear-gradient(transparent 33.2%,rgba(255,255,255,.18) 33.3%,transparent 33.5%,transparent 66.5%,rgba(255,255,255,.18) 66.6%,transparent 66.8%)}
+.t{font-weight:700;font-size:88px;line-height:1.05;letter-spacing:-2px}
+.y{background:#FFE14D;color:#0A0A0A;padding:0 14px}
+.chip{display:inline-block;background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.35);border-radius:14px;padding:10px 22px;font-size:34px}
+.frame{width:280px;height:420px;border:6px solid #fff;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:#1A1A1A}
+.chk{display:flex;align-items:center;gap:28px;font-size:52px;font-weight:700}
+.box{width:76px;height:76px;border:6px solid #fff;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:56px;color:#0A0A0A}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+.foot{position:absolute;left:90px;right:90px;bottom:120px;display:flex;justify-content:space-between;font-size:30px;color:#9A9A9A;font-weight:600}
+.foot b{color:#fff}
+</style></head><body>
+<div class="vf"><div class="grid"></div>
+  <div class="cn" style="left:0;top:0;border-right:0;border-bottom:0"></div><div class="cn" style="right:0;top:0;border-left:0;border-bottom:0"></div>
+  <div class="cn" style="left:0;bottom:0;border-right:0;border-top:0"></div><div class="cn" style="right:0;bottom:0;border-left:0;border-top:0"></div>
+</div>
+<div class="abs mono" style="left:90px;top:100px;font-size:36px;display:flex;gap:18px;align-items:center"><span id="dot" style="width:30px;height:30px;border-radius:50%;background:#FF3B30;display:inline-block"></span><span id="rec">REC</span><span id="tc">00:00</span></div>
+<div class="abs mono" style="right:90px;top:100px;font-size:34px;color:#cfcfcf">4K · 30FPS · 🔋</div>
+
+<div class="scene" id="s1">
+  <div class="abs" style="left:140px;right:140px;top:330px;height:640px;border-radius:20px;overflow:hidden;background:linear-gradient(135deg,#B7C8D8,#E3E9EF)" id="stock">
+    <div style="position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;gap:30px;font-size:200px;padding-bottom:40px;filter:saturate(.6)">🧑‍💼👩‍💼🤝</div>
+    <div class="abs mono" style="left:30px;top:30px;font-size:30px;color:#334">stock_photo_1234.jpg</div>
+    <div class="abs" style="left:-40px;right:-40px;top:280px;transform:rotate(-12deg);text-align:center;font-size:90px;font-weight:700;color:rgba(255,255,255,.65);letter-spacing:8px">BANCO DE IMAGENS</div>
+  </div>
+  <div class="abs" style="left:200px;top:880px;transform:rotate(-6deg)" id="gen"><span style="background:#FF3B30;padding:12px 30px;font-size:58px;font-weight:700;border-radius:10px">GENÉRICO</span></div>
+  <div class="abs t" style="left:110px;right:110px;top:1090px" id="s1t">Precisa de fotos<br><span class="y">profissionais</span>?</div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs t" style="left:110px;right:110px;top:420px;font-size:110px" id="s2t">Não.</div>
+  <div class="abs t" style="left:110px;right:110px;top:640px" id="s2b">As pessoas confiam<br>em <span class="y">pessoas reais</span>.</div>
+  <div class="abs" style="left:110px;top:1000px;display:flex;gap:16px;flex-wrap:wrap;width:860px" id="s2c"><span class="chip">o seu espaço</span><span class="chip">a sua equipa</span><span class="chip">o seu produto</span></div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs t" style="left:110px;right:110px;top:330px" id="s3t">15 segundos,<br><span class="y">3 takes</span></div>
+  <div class="abs" style="left:0;top:720px;width:1080px;height:520px;background:#1C1C1C;border-top:22px dashed #333;border-bottom:22px dashed #333;overflow:hidden">
+    <div class="abs" style="top:30px;left:0;display:flex;gap:40px" id="strip">
+      <div class="frame" id="fr1"><div style="font-size:120px">🏪</div><div style="font-size:38px;font-weight:700">1 · O espaço</div></div>
+      <div class="frame" id="fr2"><div style="font-size:120px">🥐</div><div style="font-size:38px;font-weight:700">2 · O produto</div></div>
+      <div class="frame" id="fr3"><div style="font-size:120px">🙋</div><div style="font-size:38px;font-weight:700">3 · A pessoa</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="scene" id="s4">
+  <div class="abs t" style="left:110px;right:110px;top:330px" id="s4t">Antes de<br>carregar no <span style="color:#FF3B30">●</span></div>
+  <div class="abs" style="left:110px;top:720px;display:flex;flex-direction:column;gap:46px">
+    <div class="chk" id="c1"><div class="box" id="x1"></div>☀️ Luz natural</div>
+    <div class="chk" id="c2"><div class="box" id="x2"></div>📱 Telemóvel na vertical</div>
+    <div class="chk" id="c3"><div class="box" id="x3"></div>🎵 Sem música com direitos</div>
+    <div class="chk" id="c4"><div class="box" id="x4"></div>⏱️ Máximo 15 segundos</div>
+  </div>
+</div>
+
+<div class="scene" id="s5">
+  <div class="abs t" style="left:110px;right:110px;top:330px" id="s5t">Não sabe<br>o que filmar?</div>
+  <div class="abs" style="left:150px;right:150px;top:700px;height:330px;border:6px solid #FFE14D;display:flex;align-items:center;justify-content:center;flex-direction:column" id="focus">
+    <div style="font-size:52px;font-weight:700">Comente</div><div style="font-size:120px;font-weight:700;color:#FFE14D;letter-spacing:4px">FILMAR</div>
+  </div>
+  <div class="abs" style="left:110px;right:110px;top:1110px;font-size:42px;line-height:1.4;color:#cfcfcf" id="s5b">Envio-lhe 5 ideias de vídeo para gravar hoje.<br>🔁 Envie a quem acha que precisa de fotógrafo.</div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs t" style="left:110px;right:110px;top:380px;font-size:124px">Não precisa<br>de <span class="y">fotógrafo</span>.</div>
+  <div class="abs" style="left:110px;top:880px;font-size:200px">📱🎬</div>
+  <div class="abs" style="left:110px;top:1180px"><span class="chip" style="font-size:44px">Só do seu telemóvel ▶</span></div>
+</div>
+<div id="flash"></div>
+<div class="foot"><b>KMD Mídias Digitais</b><span>@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=20; window.S=[[0,4],[4,8],[8,12.4],[12.4,16.6],[16.6,20]]; window.STYLE="lofi";
+window.SFX=mkSFX(window.S,[[0,0.4,"pop",0.3,600],[0,2.4,"glitch",0.4,0.3],[0,2.45,"buzz",0.3],[0,3.0,"pop",0.25,500],
+ [1,0.2,"shutter",0.6],[1,0.25,"ding",0.25,2093],[1,0.6,"thud",0.5],[1,1.4,"pop",0.3,600],[1,2.4,"pop",0.25,700],[1,2.6,"pop",0.25,760],[1,2.8,"pop",0.25,820],
+ [2,0.2,"shutter",0.5],[2,1.0,"shutter",0.5],[2,1.9,"shutter",0.5],[2,2.8,"shutter",0.5],
+ [3,0.2,"shutter",0.4],[3,1.0,"tick",0.3,2600],[3,1.6,"tick",0.3,2800],[3,2.2,"tick",0.3,3000],[3,2.8,"tick",0.3,3200],[3,2.85,"ding",0.25,1760],
+ [4,0.2,"shutter",0.4],[4,0.8,"tick",0.3,3000],[4,0.95,"tick",0.3,3000],[4,1.0,"ding",0.35,2093]],'shutter');
+function setTime(t){
+  const S=window.S; scenes(t,S,'zoom'); let l;
+  // HUD
+  const recOn=t>=S[1][0]-0.05; $('rec').textContent=recOn?'REC':'STBY'; $('dot').style.opacity=recOn?(Math.floor(t*2)%2?0.25:1):0.25;
+  const tc=recOn? Math.max(0,Math.min(15,Math.floor((t-S[1][0])*15/(20-S[1][0])))) : 0; $('tc').textContent='00:'+String(tc).padStart(2,'0');
+  // flash a cada início de cena
+  let fl=0; S.forEach(([a],i)=>{ if(i>0){ const d=t-(a-0.2); if(d>=0&&d<0.25) fl=Math.max(fl,1-d/0.25);} }); $('flash').style.opacity=fl*0.8;
+  l=L(t,S,0); { const k=p(l,0.3,0.6); tf('stock',{s:1.15-0.15*eOut(k),o:k}); $('stock').style.filter = l>2.4&&l<2.7? 'hue-rotate(90deg) contrast(1.6)':'none'; }
+  slam('gen',l,2.4,.25,-6); rise('s1t',l,1.0);
+  l=L(t,S,1); slam('s2t',l,0.6,.3); rise('s2b',l,1.4); rise('s2c',l,2.4);
+  l=L(t,S,2); rise('s3t',l,0.05);
+  { const k=eIO(p(l,0.4,3.0)); $('strip').style.transform=`translateX(${1100-k*1000}px)`; ['fr1','fr2','fr3'].forEach((id,i)=>{ $(id).style.borderColor = l>1.0+i*0.9 ? '#FFE14D':'#fff'; }); }
+  l=L(t,S,3); rise('s4t',l,0.05);
+  [1,2,3,4].forEach(i=>{ rise('c'+i,l,0.4+i*0.15,.35,60); const on=l>0.4+i*0.6; $('x'+i).style.background=on?'#FFE14D':'transparent'; $('x'+i).style.borderColor=on?'#FFE14D':'#fff'; $('x'+i).textContent=on?'✓':''; });
+  l=L(t,S,4); rise('s5t',l,0.05);
+  { const k=p(l,0.3,0.7); const s=1.4-0.4*eOut(k); tf('focus',{s:s,o:cl(k*2)}); $('focus').style.borderColor= l>1.0 ? '#4CD964':'#FFE14D'; }
+  rise('s5b',l,1.3);
+}
+function showCover(){ document.querySelectorAll('.scene').forEach(e=>e.style.opacity=0); $('flash').style.opacity=0; $('rec').textContent='REC'; $('dot').style.opacity=1; $('tc').textContent='00:15'; $('cover').style.display='block'; $('cover').style.opacity=1; }
+setTime(0);
+</script></body></html>
