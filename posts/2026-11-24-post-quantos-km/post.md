@@ -1,7 +1,7 @@
 # Post — post quantos km
 
 - Formato: Imagem única (tools/gerar_slides.py post.json .)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado e agendado (Claude)
 - Data proposta: Ter 24/11 9:00
 
 ## Legenda

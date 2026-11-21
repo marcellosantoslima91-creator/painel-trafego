@@ -1,7 +1,7 @@
 # Post — post respostas prontas
 
 - Formato: Carrossel 6 (tools/gerar_slides.py post.json .)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado e agendado (Claude)
 - Data proposta: Seg 23/11 9:00
 
 ## Legenda
