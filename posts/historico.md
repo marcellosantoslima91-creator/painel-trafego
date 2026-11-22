@@ -14,3 +14,4 @@
 | 2026-11-21 | Reel | “Com 2,39 € em anúncios, mais de 12 mil pessoas viram este negócio” (CTA ANÚNCIOS) | Publicado 11:40 pelo Marcello | https://www.instagram.com/reel/DgAJCRnxKEv/ |
 | 2026-11-21 | Reel 20s | 3 erros que fazem o anúncio do café não trazer ninguém (animado, com som, CTA CAFÉ) | Publicado 17:09 pelo Marcello | https://www.instagram.com/reel/DgAuyFlAv_3/ |
 | 2026-11-22 | Carrossel 6 | Custo por mensagem: caro ou barato? (fórmula, exemplo hipotético clínica, custo por cliente, 3 cuidados; CTA CONTAS) | Publicado 10h (Claude, aprovado) | https://www.instagram.com/p/DgCizKwjUID/ |
+| 2026-11-22 | Reel 20s | Mito: Impulsionar é fazer anúncios (574 cliques → 1 mensagem; CTA ANÚNCIO) | Publicado 12:31 (Claude, aprovado) | https://www.instagram.com/reel/DgCz1_IB6iF/ |

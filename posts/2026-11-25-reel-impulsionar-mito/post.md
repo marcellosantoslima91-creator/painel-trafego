@@ -2,7 +2,7 @@
 
 - Formato: Reel animado 1080x1920, 20 s, com som sintetizado (sem direitos de autor)
 - Capa: capa.jpg (conteúdo principal dentro do recorte 3:4)
-- Estado: aprovado — publicação agendada 22/11 12:30 (Claude)
+- Estado: publicado 22/11 12:31 (media 18091785590280693)
 - Data: domingo 22/11, 12:30
 - Dados usados: conta da KMD — 574 cliques com posts impulsionados → 1 mensagem
 
