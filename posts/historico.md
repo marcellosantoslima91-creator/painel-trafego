@@ -11,4 +11,5 @@
 | 2026-11-18 | Stories x3 | Reforço post Google; Caixa de perguntas "maior dúvida sobre anúncios"; Spoiler post orçamento 19/11 9h (slide desfocado) | Story 3 publicado 21:07 (Claude, aprovado); 1 e 2 por publicar | media id 18139125169628850 |
 | 2026-11-20 | Imagem única | Mito: preciso de muitos seguidores para vender com anúncios (CTA VENDER) | Publicado 8h (Claude, aprovado) | media id 18192967021409046 |
 | 2026-11-21 | Carrossel 7 | Checklist: antes de ligar o primeiro anúncio (oferta, zona, contacto, resposta, perfil; CTA CHECKLIST) | Publicado 9h (Claude, aprovado) | https://www.instagram.com/p/Df_3JEIjVzE/ (media id 18122018828095696) |
-| 2026-11-21 | Reel 20s | 3 erros que fazem o anúncio do café não trazer ninguém (animado, com som, CTA CAFÉ) | Publicado 11:40 pelo Marcello | https://www.instagram.com/reel/DgAJCRnxKEv/ |
+| 2026-11-21 | Reel | “Com 2,39 € em anúncios, mais de 12 mil pessoas viram este negócio” (CTA ANÚNCIOS) | Publicado 11:40 pelo Marcello | https://www.instagram.com/reel/DgAJCRnxKEv/ |
+| 2026-11-21 | Reel 20s | 3 erros que fazem o anúncio do café não trazer ninguém (animado, com som, CTA CAFÉ) | Publicado 17:09 pelo Marcello | https://www.instagram.com/reel/DgAuyFlAv_3/ |
