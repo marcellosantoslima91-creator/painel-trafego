@@ -16,3 +16,4 @@
 | 2026-11-22 | Carrossel 6 | Custo por mensagem: caro ou barato? (fórmula, exemplo hipotético clínica, custo por cliente, 3 cuidados; CTA CONTAS) | Publicado 10h (Claude, aprovado) | https://www.instagram.com/p/DgCizKwjUID/ |
 | 2026-11-22 | Reel 20s | Mito: Impulsionar é fazer anúncios (574 cliques → 1 mensagem; CTA ANÚNCIO) | Publicado 12:31 (Claude, aprovado) | https://www.instagram.com/reel/DgCz1_IB6iF/ |
 | 2026-11-23 | Reel 29s + Story | Bastidores: briefing de IA das 7:42 (vídeo do Marcello animado; CTA IA) | Publicado 08:14 (Claude, pedido do Marcello) | https://www.instagram.com/reel/DgE7S03JRRz/ |
+| 2026-11-23 | Carrossel 6 | 3 respostas prontas para mensagens de anúncios (CTA RESPOSTA) | Publicado 09:00 (Claude, aprovado) | media 18063746648549367 |

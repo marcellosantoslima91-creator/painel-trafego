@@ -1,7 +1,7 @@
 # Post — post respostas prontas
 
 - Formato: Carrossel 6 (tools/gerar_slides.py post.json .)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado 23/11 09:00 (media 18063746648549367)
 - Data proposta: Seg 23/11 9:00
 
 ## Legenda
