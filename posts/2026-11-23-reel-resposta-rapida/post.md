@@ -1,7 +1,7 @@
 # Reel — reel resposta rapida
 
 - Formato: Reel animado 1080x1920, 20 s — estilo: chat/telemóvel · música electro 122 BPM (tools/reel_animado/v2/reels/r1_resposta.html)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado 23/11 12:30 (media 17971993377200019)
 - Data proposta: Seg 23/11 12:30
 
 ## Legenda
