@@ -2,7 +2,7 @@
 
 - Origem: gravação de ecrã do Marcello (23/11), editada e animada pelo Claude (telemóvel em destaque, títulos por secção, etiquetas, música própria, outro com CTA)
 - Duração: 29 s · 1080x1920
-- Estado: a aguardar aprovação (data por definir)
+- Estado: publicado 23/11 08:14 como Reel (media 18096955349671813) + Story (media 18140165938726376)
 
 ## Legenda
 
