@@ -1,7 +1,7 @@
 # Post — O texto do anúncio em 3 linhas
 
 - Formato: Carrossel 6 (pilar b — dicas práticas)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (23/11) e agendado pelo Claude
 - Data proposta: ter 01/12, 9:00
 
 ## Legenda

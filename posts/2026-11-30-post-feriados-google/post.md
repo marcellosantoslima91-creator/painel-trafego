@@ -1,7 +1,7 @@
 # Post — Feriados de dezembro: horário especial no Google
 
 - Formato: Carrossel 6 (pilar h — presença local no Google)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (23/11) e agendado pelo Claude
 - Data proposta: seg 30/11, 9:00 (antes do feriado de 1/12 em Portugal)
 
 ## Legenda
