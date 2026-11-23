@@ -1,0 +1,89 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#0E1424;font-family:Poppins,sans-serif;color:#fff;position:relative}
+.abs{position:absolute}
+.blob{position:absolute;border-radius:50%;filter:blur(40px)}
+#grid{position:absolute;inset:0;opacity:.07;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:60px 60px}
+#bar{position:absolute;left:0;top:0;height:14px;background:#FFB020}
+.kick{font-family:Inter;font-weight:700;font-size:32px;letter-spacing:6px;text-transform:uppercase;color:#FFB020}
+.ttl{font-weight:800;font-size:72px;line-height:1.05;letter-spacing:-2px}
+.hl{color:#FFB020}
+#phone{position:absolute;left:225px;top:430px;width:630px;height:1356px;border-radius:72px;background:#05070D;padding:18px;box-shadow:0 40px 100px rgba(0,0,0,.6),0 0 0 3px #2A3350;transform-origin:50% 40%}
+#scr{width:594px;height:1320px;border-radius:56px;overflow:hidden;background:#fff}
+#scr img{width:100%;height:100%;display:block}
+#glow{position:absolute;left:150px;top:520px;width:780px;height:1200px;border-radius:120px;background:radial-gradient(#FFB02055,transparent 70%)}
+.chip{position:absolute;background:#FFB020;color:#0E1424;font-family:Inter;font-weight:800;font-size:34px;padding:18px 28px;border-radius:22px;box-shadow:0 14px 30px rgba(0,0,0,.4);white-space:nowrap}
+.chip.d{background:#fff}
+.sec{position:absolute;left:80px;right:80px;top:150px;opacity:0}
+#outro{position:absolute;inset:0;opacity:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 90px}
+.cta{display:inline-block;background:#FFB020;color:#0E1424;font-weight:800;font-size:64px;padding:34px 60px;border-radius:28px;margin-top:50px}
+.foot{position:absolute;left:80px;right:80px;bottom:60px;display:flex;justify-content:space-between;font-family:Inter;font-weight:700;font-size:28px;color:#8A93AD}
+.foot b{color:#fff}
+</style></head><body>
+<div class="blob" id="b1" style="width:700px;height:700px;background:#FFB02040;left:-300px;top:200px"></div>
+<div class="blob" id="b2" style="width:600px;height:600px;background:#3B5BFF40;right:-250px;top:1200px"></div>
+<div id="grid"></div><div id="bar"></div>
+
+<div class="sec" id="t0"><div class="kick">Bastidores KMD</div><div class="ttl">Todos os dias às 7:42,<br>a <span class="hl">IA</span> manda-me isto 👇</div></div>
+<div class="sec" id="t1"><div class="kick">1 · Agenda</div><div class="ttl">O que tenho <span class="hl">hoje</span>,<br>sem abrir o calendário</div></div>
+<div class="sec" id="t2"><div class="kick">2 · Emails</div><div class="ttl">Só os emails que<br>precisam de <span class="hl">mim</span></div></div>
+<div class="sec" id="t3"><div class="kick">3 · Instagram</div><div class="ttl">Alcance e seguidores<br><span class="hl">com números reais</span></div></div>
+<div class="sec" id="t4"><div class="kick">4 · Prioridades</div><div class="ttl">E as <span class="hl">3 coisas</span><br>a fazer primeiro</div></div>
+<div class="sec" id="t5"><div class="kick">5 · Anúncios</div><div class="ttl">Se um anúncio <span class="hl">para</span>,<br>sei logo de manhã</div></div>
+<div class="sec" id="t6"><div class="kick">Resultado</div><div class="ttl">5 apps num só<br><span class="hl">resumo de 1 minuto</span></div></div>
+
+<div id="glow"></div>
+<div id="phone"><div id="scr"><img id="vid" src="fr_0000.jpg"></div></div>
+
+<div class="chip" id="c1" style="left:40px;top:560px">⏰ Automático</div>
+<div class="chip d" id="c2" style="right:40px;top:760px">📅 Agenda</div>
+<div class="chip" id="c3" style="left:30px;top:1000px">📧 Emails</div>
+<div class="chip d" id="c4" style="right:30px;top:1180px">📱 Instagram</div>
+<div class="chip" id="c5" style="left:40px;top:1380px">📈 Meta Ads</div>
+<div class="chip d" id="c6" style="right:40px;top:1560px">🎯 Prioridades</div>
+
+<div id="outro">
+  <div class="kick">Assistente de IA para o seu negócio</div>
+  <div class="ttl" style="font-size:92px;margin-top:24px">Quer um <span class="hl">resumo destes</span><br>todas as manhãs?</div>
+  <div class="cta">Comente “IA”</div>
+  <div style="font-family:Inter;font-weight:600;font-size:40px;color:#B9C0D4;margin-top:40px">e eu explico-lhe como funciona.</div>
+</div>
+<div class="foot"><b>KMD Mídias Digitais</b><span>@kmdmidias</span></div>
+<script src="base.js"></script>
+<script>
+const NF=782, VD=NF/30;            // 26.07 s de gravação
+window.D=29.0;
+const T=[[0,2.8],[2.8,6.2],[6.2,9.6],[9.6,12.8],[12.8,16.4],[16.4,20.2],[20.2,26.0]];
+window.S=[[0,9.6],[9.6,19.4],[19.4,29.0]];   // blocos de render
+window.STYLE="pulse";
+const sfx=[[0.1,"whoosh",0.3,0.5],[0.5,"impact",0.45],[1.2,"pop",0.3,600]];
+T.forEach(([a],i)=>{ if(i>0){ sfx.push([a-0.12,"whoosh",0.3,0.4]); sfx.push([a+0.1,"pop",0.3,500+i*60]); }});
+[[1.2],[3.2],[6.6],[10.0],[17.0],[13.2]].forEach(([t])=>sfx.push([t,"pop",0.25,800]));
+sfx.push([25.9,"whooshdown",0.35,0.6],[26.4,"impact",0.5],[26.9,"ding",0.35,1760],[27.6,"notif",0.35]);
+window.SFX=sfx;
+const chips=[['c1',1.2,-1],['c2',3.2,1],['c3',6.6,-1],['c4',10.0,1],['c5',17.0,-1],['c6',13.2,1]];
+function setTime(t){
+  $('bar').style.width=(t/window.D*1080)+'px';
+  tf('b1',{x:Math.sin(t*.5)*60,y:Math.cos(t*.4)*50}); tf('b2',{x:Math.cos(t*.45)*60,y:Math.sin(t*.6)*50});
+  // frame do vídeo (congela o último no outro)
+  const f=Math.min(740,Math.max(0,Math.round(t*30))); const src='fr_'+String(f).padStart(4,'0')+'.jpg';
+  if($('vid').getAttribute('src')!==src) $('vid').setAttribute('src',src);
+  // títulos por secção
+  T.forEach(([a,b],i)=>{ const el=$('t'+i); const k=eOut(p(t,a,0.35)); const x=eIn(p(t,b-0.25,0.25));
+    const vis=t>=a&&t<b; el.style.opacity=vis?k*(1-x):0; el.style.transform=`translateY(${(1-k)*50-x*40}px)`; });
+  // telemóvel: entrada, punch-in em cada secção, saída no outro
+  const kin=eOut(p(t,0,0.7)); let s=1, y=(1-kin)*900, r=(1-kin)*8;
+  T.forEach(([a],i)=>{ if(i>0){ const d=t-a; if(d>=0&&d<0.5) s+=0.035*Math.sin(Math.PI*d/0.5);} });
+  s*=1+0.015*Math.sin(t*1.3);
+  const ko=eIn(p(t,25.9,0.6)); s*= (1-0.55*ko); y+= ko*-120; const op=1-ko;
+  tf('phone',{y:y,s:s,r:r-ko*6,o:op}); $('glow').style.opacity=op*(0.7+0.3*Math.sin(t*2));
+  chips.forEach(([id,a,dir])=>{ const k=p(t,a,.45); const e=eBack(k); const out=eIn(p(t,25.6,0.3));
+    const fl=Math.sin(t*2+a)*8; tf(id,{x:(1-e)*dir*-300,y:fl,s:k===0?.001:e,r:dir*-4,o:cl(k*3)*(1-out)}); });
+  // outro
+  const ko2=eOut(p(t,26.3,0.5)); $('outro').style.opacity=ko2; $('outro').style.transform=`scale(${0.9+0.1*ko2})`;
+  const cta=document.querySelector('.cta'); const pl=t>27?1+0.04*Math.sin((t-27)*7):1; cta.style.transform=`scale(${pl})`;
+}
+setTime(0);
+</script></body></html>
