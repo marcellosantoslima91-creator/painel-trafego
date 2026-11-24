@@ -20,3 +20,4 @@
 | 2026-11-23 | Reel 20s | Resposta lenta: "os anúncios não funcionam" (chat, electro; CTA RESPOSTA) | Publicado 12:30 (Claude, aprovado) | https://www.instagram.com/reel/DgFYs7YB6At/ |
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 10:04 | https://www.instagram.com/reel/DgFHz_4hhwC/ |
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 12:07 | https://www.instagram.com/reel/DgFVwAFp08B/ |
+| 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 18:09 | https://www.instagram.com/reel/DgF_S1go87Q/ |
