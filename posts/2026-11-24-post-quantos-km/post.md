@@ -1,7 +1,7 @@
 # Post — post quantos km
 
 - Formato: Imagem única (tools/gerar_slides.py post.json .)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado 24/11 09:00 (media 17989788663108936)
 - Data proposta: Ter 24/11 9:00
 
 ## Legenda

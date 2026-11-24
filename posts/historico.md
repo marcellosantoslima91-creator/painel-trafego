@@ -21,3 +21,4 @@
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 10:04 | https://www.instagram.com/reel/DgFHz_4hhwC/ |
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 12:07 | https://www.instagram.com/reel/DgFVwAFp08B/ |
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 18:09 | https://www.instagram.com/reel/DgF_S1go87Q/ |
+| 2026-11-24 | Imagem | Pergunta: quantos km faz o cliente até si? | Publicado 09:00 (Claude, aprovado) | media 17989788663108936 |
