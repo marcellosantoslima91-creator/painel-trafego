@@ -1,7 +1,7 @@
 # Reel — reel raio certo
 
 - Formato: Reel animado 1080x1920, 20 s — estilo: mapa/radar · música ambiente 92 BPM (tools/reel_animado/v2/reels/r2_raio.html)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado 24/11 12:30 (media 17954105310347872)
 - Data proposta: Ter 24/11 12:30
 
 ## Legenda
