@@ -21,5 +21,5 @@
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 10:04 | https://www.instagram.com/reel/DgFHz_4hhwC/ |
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 12:07 | https://www.instagram.com/reel/DgFVwAFp08B/ |
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 18:09 | https://www.instagram.com/reel/DgF_S1go87Q/ |
-| 2026-11-24 | Imagem | Pergunta: quantos km faz o cliente até si? | Publicado 09:00 (Claude, aprovado) | media 17989788663108936 |
-| 2026-11-24 | Reel 20s | Raio certo: 50 km vs 5 km (mapa/radar, ambiente; CTA RAIO) | Publicado 12:30 (Claude, aprovado) | media 17954105310347872 |
+| 2026-11-24 | Imagem | Pergunta: quantos km faz o cliente até si? | Publicado 09:00 (Claude, aprovado) | https://www.instagram.com/p/DgHla5nEUK_/ |
+| 2026-11-24 | Reel 20s | Raio certo: 50 km vs 5 km (mapa/radar, ambiente; CTA RAIO) | Publicado 12:30 (Claude, aprovado) | https://www.instagram.com/reel/DgH9cBWBvv2/ |
