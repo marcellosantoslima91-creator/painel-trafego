@@ -1,7 +1,7 @@
 # Post — post 4 ofertas
 
 - Formato: Carrossel 6 (tools/gerar_slides.py post.json .)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado (25/11 09:01, media 18101815844207825)
 - Data proposta: Qua 25/11 9:00
 
 ## Legenda
