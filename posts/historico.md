@@ -23,4 +23,4 @@
 | 2026-11-23 | Reel | (publicado pelo Marcello) | Publicado 18:09 | https://www.instagram.com/reel/DgF_S1go87Q/ |
 | 2026-11-24 | Imagem | Pergunta: quantos km faz o cliente até si? | Publicado 09:00 (Claude, aprovado) | https://www.instagram.com/p/DgHla5nEUK_/ |
 | 2026-11-24 | Reel 20s | Raio certo: 50 km vs 5 km (mapa/radar, ambiente; CTA RAIO) | Publicado 12:30 (Claude, aprovado) | https://www.instagram.com/reel/DgH9cBWBvv2/ |
-| 25/11 09:01 | Carrossel 4 ofertas (6 slides) | media 18101815844207825 |
+| 2026-11-25 | Carrossel 6 | 4 ofertas para negócios locais (CTA OFERTA) | Publicado 09:01 (Claude, aprovado) | media 18101815844207825 |
