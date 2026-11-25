@@ -1,7 +1,7 @@
 # Reel — reel oferta
 
 - Formato: Reel animado 1080x1920, 20 s — estilo: montra/etiquetas amarelas · funk 108 BPM (tools/reel_animado/v2/reels/r3_oferta.html)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado (25/11 12:31, media 18003794486817502)
 - Data proposta: Qua 25/11 12:30
 
 ## Legenda
