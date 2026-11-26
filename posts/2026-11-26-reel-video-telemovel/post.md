@@ -1,7 +1,7 @@
 # Reel — reel video telemovel
 
 - Formato: Reel animado 1080x1920, 20 s — estilo: ecrã de câmara REC · lo-fi 82 BPM (tools/reel_animado/v2/reels/r4_telemovel.html)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado (26/11 12:31, media 17915748510560852)
 - Data proposta: Qui 26/11 12:30
 
 ## Legenda

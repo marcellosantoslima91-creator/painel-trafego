@@ -26,3 +26,4 @@
 | 2026-11-25 | Carrossel 6 | 4 ofertas para negócios locais (CTA OFERTA) | Publicado 09:01 (Claude, aprovado) | media 18101815844207825 |
 | 2026-11-25 | Reel | Oferta: foto bonita não vende sozinha (CTA OFERTA) | Publicado 12:31 (Claude, aprovado) | media 18003794486817502 |
 | 2026-11-26 | Carrossel 6 | 5 vídeos para filmar com o telemóvel (CTA FILMAR) | Publicado 09:01 (Claude, aprovado) | media 17954932044053676 |
+| 2026-11-26 | Reel | Vídeo com telemóvel: não precisa de fotógrafo (CTA FILMAR) | Publicado 12:31 (Claude, aprovado) | media 17915748510560852 |
