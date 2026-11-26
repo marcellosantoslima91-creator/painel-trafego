@@ -1,0 +1,101 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#2B0F4C;font-family:Poppins,Roboto,sans-serif;color:#fff;position:relative}
+#bg{position:absolute;inset:0;background:radial-gradient(circle at 50% 35%,#5B2A9E 0%,#2B0F4C 60%,#170726 100%)}
+#rays{position:absolute;left:-460px;top:-160px;width:2000px;height:2000px;background:repeating-conic-gradient(rgba(41,197,246,.08) 0 10deg,transparent 10deg 20deg);border-radius:50%}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.big{font-weight:900;font-size:92px;line-height:1.04;letter-spacing:-2px;text-align:center}
+.yl{color:#FFD23F}.bl{color:#29C5F6}.pk{color:#FF4F7B}
+.badge{border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;box-shadow:0 14px 0 rgba(0,0,0,.35)}
+.bA{background:#FF4F7B}.bB{background:#29C5F6}
+.tag{display:inline-block;padding:14px 34px;border-radius:40px;font-weight:900;font-size:44px;letter-spacing:2px}
+.num{font-weight:900;font-size:180px;line-height:1;color:#FFD23F}
+.h{font-weight:900;font-size:76px;line-height:1.05;letter-spacing:-1px}
+.row{display:flex;gap:30px}
+.box{flex:1;border-radius:30px;padding:34px 30px;font-size:40px;line-height:1.3;font-weight:700}
+.xa{background:rgba(255,79,123,.16);border:4px solid #FF4F7B}
+.xb{background:rgba(41,197,246,.16);border:4px solid #29C5F6}
+.lb{font-weight:900;font-size:34px;letter-spacing:2px;margin-bottom:14px}
+.btn{border-radius:18px;padding:24px;text-align:center;font-weight:800;font-size:40px;margin-top:10px}
+.foot{position:absolute;left:90px;right:90px;bottom:250px;display:flex;justify-content:space-between;font-size:30px;font-weight:700;opacity:.9}
+#conf i{position:absolute;width:22px;height:38px;border-radius:6px}
+</style></head><body>
+<div id="bg"></div><div id="rays"></div><div id="conf" class="abs" style="inset:0"></div>
+
+<div class="scene" id="s1">
+  <div class="abs" style="left:0;right:0;top:300px;text-align:center" id="t1a"><span class="tag" style="background:#FFD23F;color:#2B0F4C">🎯 A OU B? · RESPOSTA</span></div>
+  <div class="abs" style="left:0;right:0;top:470px;text-align:center;font-size:170px" id="crown">👑</div>
+  <div class="abs badge bB" style="left:315px;top:660px;width:450px;height:450px;font-size:300px" id="B1">B</div>
+  <div class="abs big" style="left:60px;right:60px;top:1230px" id="t1b">Acertou? 👀<br><span class="yl" style="font-size:62px">Veja porquê em 3 pontos.</span></div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs num" style="left:90px;top:300px" id="n2">1</div>
+  <div class="abs h" style="left:90px;right:90px;top:500px" id="h2">Dá um <span class="yl">motivo</span><br>para falar hoje.</div>
+  <div class="abs row" style="left:90px;right:90px;top:780px" id="r2">
+    <div class="box xa"><div class="lb pk">A</div>“Os bolos mais bonitos da cidade.”<div style="margin-top:16px;font-size:34px;opacity:.85">Bonito… mas porquê agora?</div></div>
+    <div class="box xb"><div class="lb bl">B</div>Vela + cartão escrito à mão.<br><b class="yl">Só 10 esta semana.</b><div style="margin-top:16px;font-size:34px;opacity:.85">Ganho claro + limite.</div></div>
+  </div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs num" style="left:90px;top:300px" id="n3">2</div>
+  <div class="abs h" style="left:90px;right:90px;top:500px" id="h3">Diz <span class="yl">o que fazer</span><br>a seguir.</div>
+  <div class="abs row" style="left:90px;right:90px;top:780px" id="r3">
+    <div class="box xa"><div class="lb pk">A</div><div class="btn" style="background:#E4E6EB;color:#111">Saiba mais</div><div style="margin-top:20px;font-size:34px;opacity:.85">Saber mais o quê?</div></div>
+    <div class="box xb"><div class="lb bl">B</div><div class="btn" style="background:#0866FF;color:#fff">💬 Enviar mensagem</div><div style="margin-top:20px;font-size:34px;opacity:.85">+ “Envie <b class="yl">BOLO</b>”</div></div>
+  </div>
+</div>
+
+<div class="scene" id="s4">
+  <div class="abs num" style="left:90px;top:300px" id="n4">3</div>
+  <div class="abs h" style="left:90px;right:90px;top:500px" id="h4">Parece uma <span class="yl">pessoa</span>,<br>não um anúncio.</div>
+  <div class="abs row" style="left:90px;right:90px;top:780px" id="r4">
+    <div class="box xa" style="text-align:center"><div class="lb pk">A</div><div style="font-size:130px">🖼️</div>Foto de estúdio<div style="margin-top:14px;font-size:34px;opacity:.85">passa ao lado</div></div>
+    <div class="box xb" style="text-align:center"><div class="lb bl">B</div><div style="font-size:130px">🤳</div>A dona a falar<div style="margin-top:14px;font-size:34px;opacity:.85">gera confiança</div></div>
+  </div>
+</div>
+
+<div class="scene" id="s5">
+  <div class="abs big" style="left:70px;right:70px;top:330px;font-size:84px" id="t5a">O B junta <span class="yl">3 coisas</span>:</div>
+  <div class="abs" style="left:130px;right:130px;top:560px;font-size:58px;font-weight:800;line-height:1.7" id="t5b"><div id="l1">🎁 oferta com limite</div><div id="l2">💬 próximo passo claro</div><div id="l3">🤳 pessoa real</div></div>
+  <div class="abs" style="left:90px;right:90px;top:1000px;font-size:36px;font-weight:600;line-height:1.4;opacity:.8;text-align:center" id="t5c">Num anúncio a sério, testamos os dois<br>e os números decidem.</div>
+</div>
+
+<div class="scene" id="s6">
+  <div class="abs big" style="left:60px;right:60px;top:330px" id="t6a">Quer uma oferta<br>assim <span class="yl">para o seu negócio</span>?</div>
+  <div class="abs" style="left:150px;right:150px;top:720px;background:#FFD23F;color:#2B0F4C;border-radius:30px;padding:40px;text-align:center;font-weight:900;font-size:58px" id="t6b">Comente <span id="kw"></span></div>
+  <div class="abs" style="left:90px;right:90px;top:960px;font-size:42px;line-height:1.4;font-weight:700;text-align:center;opacity:.9" id="t6c">e envio-lhe ideias de oferta.<br>🔁 Envie a quem comentou A.</div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs" style="left:0;right:0;top:280px;text-align:center"><span class="tag" style="background:#FFD23F;color:#2B0F4C">🎯 A OU B? · RESPOSTA</span></div>
+  <div class="abs" style="left:0;right:0;top:430px;text-align:center;font-size:170px">👑</div>
+  <div class="abs badge bB" style="left:315px;top:620px;width:450px;height:450px;font-size:300px">B</div>
+  <div class="abs" style="left:70px;right:70px;top:1160px;background:#fff;color:#2B0F4C;border-radius:30px;padding:40px;text-align:center;font-weight:900;font-size:60px;line-height:1.12">Porque é que o <span style="color:#29C5F6">B</span><br>traz mais mensagens</div>
+</div>
+<div class="foot"><span>KMD Mídias Digitais</span><span class="yl">@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=21; window.S=[[0,3.4],[3.4,7.4],[7.4,11.2],[11.2,15],[15,18],[18,21]]; window.STYLE="pulse";
+window.SFX=mkSFX(window.S,[[0,0.15,"riser",0.35],[0,1.0,"impact",0.6],[0,1.25,"cash",0.4],[0,1.9,"pop",0.3,600],
+ [1,0.3,"thud",0.5],[1,0.6,"whoosh",0.3,0.4],[1,1.2,"pop",0.3,500],[1,1.5,"pop",0.3,700],
+ [2,0.3,"thud",0.5],[2,0.6,"whoosh",0.3,0.4],[2,1.2,"pop",0.3,500],[2,1.6,"notif",0.4],
+ [3,0.3,"thud",0.5],[3,0.6,"whoosh",0.3,0.4],[3,1.2,"pop",0.3,500],[3,1.5,"shutter",0.4],
+ [4,0.2,"pop",0.3,500],[4,0.7,"ding",0.25,1318],[4,1.1,"ding",0.25,1568],[4,1.5,"ding",0.25,1760],
+ [5,0.2,"impact",0.5],[5,0.9,"key",0.3],[5,1.0,"key",0.3],[5,1.1,"key",0.3],[5,1.2,"key",0.3],[5,1.3,"key",0.3],[5,1.4,"key",0.3],[5,1.7,"ding",0.3,1760]],'swipe');
+const cols=['#FFD23F','#29C5F6','#FF4F7B','#fff','#7CF29A']; const conf=[];
+for(let i=0;i<70;i++){const e=document.createElement('i');e.style.background=cols[i%5];$('conf').appendChild(e);conf.push({e,x:Math.random()*1080,v:600+Math.random()*700,r:Math.random()*360,w:(Math.random()-.5)*400,d:Math.random()*0.4});}
+function setTime(t){
+  const S=window.S; scenes(t,S,'zoom'); let l;
+  $('rays').style.transform=`rotate(${t*8}deg)`;
+  l=L(t,S,0); pop('t1a',l,0.1,.4); slam('B1',l,1.0,.35,0); rise('crown',l,1.4,.4,-200); rise('t1b',l,1.9);
+  { const tt=l-1.0; conf.forEach(c=>{ const k=tt-c.d; if(t>S[0][1]+0.2||k<0){c.e.style.opacity=0;return;} c.e.style.opacity=1; c.e.style.transform=`translate(${c.x+c.w*k}px,${-60+c.v*k}px) rotate(${c.r+k*400}deg)`; }); }
+  [[1,'n2','h2','r2'],[2,'n3','h3','r3'],[3,'n4','h4','r4']].forEach(([k,n,h,r])=>{ l=L(t,S,k); slam(n,l,0.3,.3,-6); rise(h,l,0.55); rise(r,l,1.1,.45,200); });
+  l=L(t,S,4); rise('t5a',l,0.1); slide('l1',l,0.6,.3,-300); slide('l2',l,1.0,.3,-300); slide('l3',l,1.4,.3,-300); fade('t5c',l,2.0,.5);
+  l=L(t,S,5); rise('t6a',l,0.1); pop('t6b',l,0.6,.4,-4); typeText('kw','OFERTA',l,0.9,0.55); rise('t6c',l,1.8);
+}
+setTime(0);
+</script></body></html>
