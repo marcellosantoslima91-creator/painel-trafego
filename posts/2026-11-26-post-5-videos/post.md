@@ -1,7 +1,7 @@
 # Post — post 5 videos
 
 - Formato: Carrossel 6 (tools/gerar_slides.py post.json .)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado (26/11 09:01, media 17954932044053676)
 - Data proposta: Qui 26/11 9:00
 
 ## Legenda

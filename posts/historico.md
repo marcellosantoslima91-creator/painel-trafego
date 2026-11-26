@@ -25,3 +25,4 @@
 | 2026-11-24 | Reel 20s | Raio certo: 50 km vs 5 km (mapa/radar, ambiente; CTA RAIO) | Publicado 12:30 (Claude, aprovado) | https://www.instagram.com/reel/DgH9cBWBvv2/ |
 | 2026-11-25 | Carrossel 6 | 4 ofertas para negócios locais (CTA OFERTA) | Publicado 09:01 (Claude, aprovado) | media 18101815844207825 |
 | 2026-11-25 | Reel | Oferta: foto bonita não vende sozinha (CTA OFERTA) | Publicado 12:31 (Claude, aprovado) | media 18003794486817502 |
+| 2026-11-26 | Carrossel 6 | 5 vídeos para filmar com o telemóvel (CTA FILMAR) | Publicado 09:01 (Claude, aprovado) | media 17954932044053676 |
