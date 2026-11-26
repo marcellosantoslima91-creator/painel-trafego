@@ -1,7 +1,7 @@
 # Post — O que acontece na 1.ª semana de uma campanha
 
 - Formato: Carrossel 7 (pilar d — bastidores/método KMD)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (26/11) e agendado para 04/12 9:00 (Claude)
 - Data proposta: sex 04/12, 9:00
 
 ## Legenda
