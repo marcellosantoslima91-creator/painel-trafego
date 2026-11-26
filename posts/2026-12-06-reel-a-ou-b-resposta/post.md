@@ -1,7 +1,7 @@
 # Reel — A ou B? Resposta (série, parte 2)
 
 - Formato: Reel 21 s, mesma identidade "quiz" da parte 1 (roxo, raios azuis, confetti), música pulse
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (26/11) e agendado para 01/12 12:30
 - Data proposta: dia seguinte à parte 1 (a definir)
 - Resposta: B — 1) motivo para falar hoje (oferta + limite), 2) próximo passo claro (Enviar mensagem / "Envie BOLO"), 3) pessoa real em vídeo. Nota honesta: num anúncio a sério testam-se os dois.
 

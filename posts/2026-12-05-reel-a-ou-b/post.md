@@ -1,7 +1,7 @@
 # Reel — A ou B? Qual anúncio traz mais mensagens (série, parte 1)
 
 - Formato: Reel 18,5 s, estilo "quiz" (roxo/amarelo, raios, contagem 3-2-1), música funk
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (26/11) e agendado para 30/11 12:30
 - Data proposta: a definir com o Marcello (parte 2 com a resposta no dia seguinte)
 - Negócio fictício: "Doce Lar Pastelaria"
   - A: foto de estúdio + "os bolos mais bonitos da cidade" + botão "Saiba mais"
