@@ -1,0 +1,105 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#F4EFE6;font-family:Georgia,'Times New Roman',serif;color:#1d1d1d;position:relative}
+#lines{position:absolute;inset:0;background:repeating-linear-gradient(#F4EFE6 0 78px,#D8E3F0 78px 80px)}
+#margin{position:absolute;top:0;bottom:0;left:120px;width:4px;background:#E89A9A}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.hand{font-family:'Comic Sans MS','Segoe Print',cursive;color:#D7263D;font-weight:700}
+.sans{font-family:Inter,Roboto,sans-serif}
+.title{font-family:Inter,Roboto,sans-serif;font-weight:900;font-size:92px;line-height:1.03;letter-spacing:-2px}
+.ad{background:#fff;border-radius:28px;box-shadow:0 18px 40px rgba(0,0,0,.15);padding:40px;font-family:Inter,Roboto,sans-serif}
+.adh{display:flex;gap:20px;align-items:center;margin-bottom:28px}
+.av{width:80px;height:80px;border-radius:50%;background:#C8E6C9;display:flex;align-items:center;justify-content:center;font-size:44px}
+.ln{position:relative;font-size:44px;line-height:1.35;margin-bottom:22px;display:inline-block}
+.strike{position:absolute;left:-8px;height:8px;background:#D7263D;border-radius:4px;transform-origin:left;width:0}
+.fix{font-size:44px;line-height:1.3;color:#1B7F3B;font-weight:800;font-family:Inter,Roboto,sans-serif}
+.circ{position:absolute;border:7px solid #D7263D;border-radius:50%}
+.btn{display:inline-block;border-radius:16px;padding:20px 30px;font-weight:800;font-size:40px}
+.stamp{border:10px solid #1B7F3B;color:#1B7F3B;border-radius:24px;padding:20px 40px;font-family:Inter,Roboto,sans-serif;font-weight:900;font-size:90px;letter-spacing:6px}
+.timer{font-family:Inter,Roboto,sans-serif;font-weight:900;font-size:56px;background:#1d1d1d;color:#fff;border-radius:40px;padding:12px 30px}
+.foot{position:absolute;left:160px;right:90px;bottom:200px;display:flex;justify-content:space-between;font-size:30px;font-weight:700;font-family:Inter,Roboto,sans-serif;opacity:.75}
+</style></head><body>
+<div id="lines"></div><div id="margin"></div>
+<div class="abs timer" style="right:80px;top:120px" id="tm">⏱ 0:30</div>
+
+<div class="scene" id="s1">
+  <div class="abs title" style="left:160px;right:90px;top:300px" id="t1">Corrigir um anúncio<br>em <span style="color:#D7263D">30 segundos</span>.</div>
+  <div class="abs hand" style="left:160px;top:640px;font-size:56px" id="t1b">(clínica fictícia) ✍️</div>
+  <div class="abs ad" style="left:160px;right:90px;top:780px" id="ad1">
+    <div class="adh"><div class="av">🦷</div><div><b style="font-size:38px">Clínica Sorriso+</b><div style="font-size:28px;color:#777">Patrocinado</div></div></div>
+    <div style="font-size:42px;line-height:1.4">Somos uma clínica com mais de 15 anos de experiência, equipa qualificada e tecnologia de ponta. A sua saúde oral é a nossa prioridade! 😁</div>
+    <div style="margin-top:26px"><span class="btn" style="background:#E4E6EB">Saiba mais</span></div>
+  </div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs hand" style="left:160px;top:280px;font-size:64px" id="h2">Erro 1: fala de si, não do cliente</div>
+  <div class="abs ad" style="left:160px;right:90px;top:460px">
+    <div class="ln" id="l2a">Somos uma clínica com mais<br>de 15 anos de experiência…<div class="strike" id="k2a" style="top:26%"></div><div class="strike" id="k2b" style="top:72%"></div></div>
+  </div>
+  <div class="abs fix" style="left:160px;right:90px;top:820px" id="f2">→ “Dor ao mastigar? Avaliação<br>no próprio dia em Braga.”</div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs hand" style="left:160px;top:280px;font-size:64px" id="h3">Erro 2: não há oferta</div>
+  <div class="abs ad" style="left:160px;right:90px;top:460px">
+    <div class="ln" id="l3a">A sua saúde oral é<br>a nossa prioridade! 😁<div class="strike" id="k3a" style="top:26%"></div><div class="strike" id="k3b" style="top:72%"></div></div>
+  </div>
+  <div class="abs fix" style="left:160px;right:90px;top:820px" id="f3">→ “1.ª avaliação gratuita.<br>Só 12 vagas este mês.”</div>
+</div>
+
+<div class="scene" id="s4">
+  <div class="abs hand" style="left:160px;top:280px;font-size:64px" id="h4">Erro 3: “Saiba mais” o quê?</div>
+  <div class="abs" style="left:160px;top:500px" id="b4a"><span class="btn" style="background:#E4E6EB;font-size:56px;padding:30px 50px">Saiba mais</span></div>
+  <div class="circ" style="left:130px;top:470px;width:470px;height:200px" id="c4"></div>
+  <div class="abs" style="left:160px;top:780px" id="b4b"><span class="btn" style="background:#0866FF;color:#fff;font-size:56px;padding:30px 50px">💬 Enviar mensagem</span></div>
+  <div class="abs fix" style="left:160px;right:90px;top:960px" id="f4">→ “Envie AVALIAÇÃO e<br>marcamos o seu horário.”</div>
+</div>
+
+<div class="scene" id="s5">
+  <div class="abs title" style="left:160px;right:90px;top:230px;font-size:72px" id="t5">Depois:</div>
+  <div class="abs ad" style="left:160px;right:90px;top:380px" id="ad5">
+    <div class="adh"><div class="av">🦷</div><div><b style="font-size:38px">Clínica Sorriso+</b><div style="font-size:28px;color:#777">Patrocinado</div></div></div>
+    <div style="font-size:44px;line-height:1.4;font-weight:600">Dor ao mastigar? Avaliação no próprio dia em Braga.<br><br>1.ª avaliação gratuita. Só 12 vagas este mês.<br><br>Envie <b>AVALIAÇÃO</b> e marcamos o seu horário.</div>
+    <div style="margin-top:26px"><span class="btn" style="background:#0866FF;color:#fff">💬 Enviar mensagem</span></div>
+  </div>
+  <div class="abs stamp" style="left:300px;top:1240px;transform:rotate(-8deg)" id="stp">APROVADO</div>
+</div>
+
+<div class="scene" id="s6">
+  <div class="abs title" style="left:160px;right:90px;top:360px" id="t6">Quer ajuda com<br>o <span style="color:#D7263D">texto do seu</span><br>anúncio?</div>
+  <div class="abs" style="left:160px;right:90px;top:820px;background:#1d1d1d;color:#fff;border-radius:30px;padding:36px;text-align:center;font-family:Inter,Roboto,sans-serif;font-weight:900;font-size:56px" id="c6">Envie <span id="kw" style="color:#FFD23F"></span></div>
+  <div class="abs hand" style="left:160px;top:1050px;font-size:48px" id="t6b">por mensagem e conversamos<br>sobre o seu negócio.</div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs title" style="left:160px;right:90px;top:330px;font-size:110px">Corrigir um<br>anúncio em<br><span style="color:#D7263D">30 segundos</span></div>
+  <div class="abs hand" style="left:160px;top:820px;font-size:70px">3 erros que custam<br>mensagens ✍️</div>
+  <div class="abs stamp" style="left:160px;top:1150px;transform:rotate(-6deg);font-size:66px">ANTES → DEPOIS</div>
+</div>
+<div class="foot"><span>KMD Mídias Digitais</span><span style="color:#D7263D">@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=24; window.S=[[0,4.4],[4.4,8.4],[8.4,12.4],[12.4,16.6],[16.6,20.6],[20.6,24]]; window.STYLE="house";
+window.SFX=mkSFX(window.S,[[0,0.2,"tick",0.3],[0,1.0,"pop",0.3,600],[0,1.6,"whoosh",0.3,0.4],
+ [1,0.3,"click",0.5],[1,1.4,"swipe",0.5],[1,2.3,"ding",0.3,1318],
+ [2,0.3,"click",0.5],[2,1.4,"swipe",0.5],[2,2.3,"ding",0.3,1318],
+ [3,0.3,"click",0.5],[3,1.2,"swipe",0.5],[3,1.9,"pop",0.3,700],[3,2.6,"ding",0.3,1318],
+ [4,0.3,"whoosh",0.3,0.4],[4,2.0,"impact",0.6],
+ [5,0.3,"pop",0.3,500],[5,1.0,"key",0.3],[5,1.1,"key",0.3],[5,1.2,"key",0.3],[5,1.3,"key",0.3],[5,1.6,"ding",0.3,1760]],'swipe');
+function strike(id,lt,a,d,w){const k=eOut(p(lt,a,d));$(id).style.width=(w*k)+'px';}
+function setTime(t){
+  const S=window.S; scenes(t,S,'drop'); let l;
+  { const s=Math.max(0,30-Math.floor(t*30/20.6)); $('tm').textContent='⏱ 0:'+String(s).padStart(2,'0'); $('tm').style.opacity=t<20.6?1:0; }
+  l=L(t,S,0); rise('t1',l,0.1); fade('t1b',l,0.8,.4); rise('ad1',l,1.4,.5,300);
+  l=L(t,S,1); slide('h2',l,0.2,.35,-200); fade('l2a',l,0.4,.3); strike('k2a',l,1.3,.3,620); strike('k2b',l,1.6,.3,580); rise('f2',l,2.2);
+  l=L(t,S,2); slide('h3',l,0.2,.35,-200); fade('l3a',l,0.4,.3); strike('k3a',l,1.3,.3,420); strike('k3b',l,1.6,.3,480); rise('f3',l,2.2);
+  l=L(t,S,3); slide('h4',l,0.2,.35,-200); fade('b4a',l,0.4,.3); { const k=p(l,1.2,.4); $('c4').style.opacity=k>0?1:0; $('c4').style.clipPath=`inset(0 ${100-k*100}% 0 0)`; } pop('b4b',l,1.9,.4); rise('f4',l,2.6);
+  l=L(t,S,4); rise('t5',l,0.1); rise('ad5',l,0.4,.5,200); slam('stp',l,2.0,.3,-8);
+  l=L(t,S,5); rise('t6',l,0.1); pop('c6',l,0.7,.4); typeText('kw',' TEXTO',l,0.95,0.5); fade('t6b',l,1.7,.4);
+}
+function showCover(){document.querySelectorAll('.scene').forEach(e=>e.style.opacity=0);$('tm').style.opacity=0;const c=$('cover');c.style.opacity=1;c.style.display='block';}
+setTime(0);
+</script></body></html>

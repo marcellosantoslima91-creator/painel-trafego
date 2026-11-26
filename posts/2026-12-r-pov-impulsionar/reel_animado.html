@@ -1,0 +1,99 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#0B0B0F;font-family:Inter,Roboto,sans-serif;color:#fff;position:relative}
+#grain{position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,#1d1d2b,#0B0B0F 70%)}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.pov{font-family:'Courier New',monospace;font-weight:700;font-size:70px;letter-spacing:4px;color:#9EF01A}
+.big{font-weight:900;font-size:88px;line-height:1.06;letter-spacing:-2px}
+.phone{position:absolute;left:190px;width:700px;height:1180px;top:560px;border-radius:70px;background:#000;border:14px solid #2a2a33;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.notch{position:absolute;left:250px;top:14px;width:200px;height:40px;border-radius:30px;background:#111}
+.post{position:absolute;left:30px;right:30px;top:110px;background:#16161d;border-radius:30px;overflow:hidden}
+.pimg{height:420px;background:linear-gradient(135deg,#f6d365,#fda085);display:flex;align-items:center;justify-content:center;font-size:170px}
+.prow{padding:24px 28px;font-size:34px;display:flex;justify-content:space-between;align-items:center}
+.boost{background:#0866FF;border-radius:14px;padding:12px 22px;font-weight:800;font-size:28px}
+.nt{position:absolute;left:30px;right:30px;background:#1f1f29;border-radius:24px;padding:22px 26px;font-size:32px;display:flex;gap:18px;align-items:center}
+.inbox{position:absolute;left:30px;right:30px;top:90px;bottom:30px}
+.msg{background:#1f1f29;border-radius:24px;padding:22px 26px;font-size:32px;margin-bottom:18px;display:flex;gap:18px;align-items:center}
+.dot{width:70px;height:70px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:36px}
+.step{display:flex;gap:30px;align-items:center;margin-bottom:46px}
+.sn{width:120px;height:120px;border-radius:30px;background:#9EF01A;color:#0B0B0F;font-weight:900;font-size:76px;display:flex;align-items:center;justify-content:center;flex:none}
+.st{font-weight:800;font-size:54px;line-height:1.15}
+.foot{position:absolute;left:90px;right:90px;bottom:120px;display:flex;justify-content:space-between;font-size:30px;font-weight:700;opacity:.8}
+</style></head><body>
+<div id="grain"></div>
+
+<div class="scene" id="s1">
+  <div class="abs pov" style="left:90px;top:200px" id="p1">POV:</div>
+  <div class="abs big" style="left:90px;right:90px;top:300px;font-size:70px" id="t1">carregou em <span style="color:#4D9BFF">“Impulsionar”</span>…</div>
+  <div class="phone" id="ph1"><div class="notch"></div>
+    <div class="post"><div class="pimg">🥐</div><div class="prow"><span>❤️ <b id="lk">0</b> gostos</span><span class="boost" id="bst">Impulsionar</span></div></div>
+    <div class="abs" style="left:30px;right:30px;top:720px;font-size:32px;color:#aaa;text-align:center" id="spent">💸 Gasto: <b style="color:#fff" id="eur">0</b> €</div>
+  </div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs big" style="left:90px;right:90px;top:220px;font-size:70px" id="t2">…e chegou<br><span style="color:#FF5470">isto</span>:</div>
+  <div class="phone"><div class="notch"></div>
+    <div class="nt" style="top:100px" id="n1"><span>❤️</span>ana_m gostou da sua publicação</div>
+    <div class="nt" style="top:220px" id="n2"><span>❤️</span>joao.r gostou da sua publicação</div>
+    <div class="nt" style="top:340px" id="n3"><span>❤️</span>rita_87 gostou da sua publicação</div>
+    <div class="nt" style="top:460px" id="n4"><span>❤️</span>e mais 44 pessoas</div>
+    <div class="abs" style="left:30px;right:30px;top:640px;border:3px dashed #444;border-radius:24px;padding:40px;text-align:center;font-size:38px;color:#bbb" id="n5">💬 Mensagens: <b style="color:#FF5470;font-size:60px">0</b></div>
+  </div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs" style="left:0;right:0;top:520px;text-align:center;font-size:220px" id="e3">🫠</div>
+  <div class="abs big" style="left:90px;right:90px;top:860px;text-align:center;font-size:100px" id="t3">Gostos não<br>pagam a <span style="color:#9EF01A">renda</span>.</div>
+</div>
+
+<div class="scene" id="s4">
+  <div class="abs pov" style="left:90px;top:230px;font-size:56px" id="p4">EM VEZ DE IMPULSIONAR:</div>
+  <div class="abs" style="left:90px;right:90px;top:400px">
+    <div class="step" id="st1"><div class="sn">1</div><div class="st">Objetivo:<br><span style="color:#9EF01A">mensagens</span>, não gostos</div></div>
+    <div class="step" id="st2"><div class="sn">2</div><div class="st">Uma oferta<br>com <span style="color:#9EF01A">prazo ou limite</span></div></div>
+    <div class="step" id="st3"><div class="sn">3</div><div class="st">Botão<br><span style="color:#9EF01A">“Enviar mensagem”</span></div></div>
+    <div class="step" id="st4"><div class="sn">4</div><div class="st">Público na<br><span style="color:#9EF01A">sua zona</span></div></div>
+  </div>
+</div>
+
+<div class="scene" id="s5">
+  <div class="abs big" style="left:90px;right:90px;top:200px;font-size:66px" id="t5">O objetivo é <span style="color:#9EF01A">isto</span>:</div>
+  <div class="phone" style="top:430px;height:1000px"><div class="notch"></div>
+    <div class="inbox">
+      <div class="msg" id="m1"><div class="dot" style="background:#FF8A5B">S</div>“Olá! Ainda há vagas esta semana?”</div>
+      <div class="msg" id="m2"><div class="dot" style="background:#4D9BFF">P</div>“Quanto custa para 6 pessoas?”</div>
+      <div class="msg" id="m3"><div class="dot" style="background:#9EF01A;color:#000">M</div>“Vi o anúncio, posso marcar?”</div>
+    </div>
+    <div class="abs" style="left:0;right:0;bottom:40px;text-align:center;font-size:26px;color:#777">mensagens de exemplo</div>
+  </div>
+  <div class="abs" style="left:150px;right:150px;top:1500px;background:#9EF01A;color:#0B0B0F;border-radius:30px;padding:30px;text-align:center;font-weight:900;font-size:50px" id="cta">Comente <span id="kw"></span></div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs pov" style="left:90px;top:300px;font-size:90px">POV:</div>
+  <div class="abs big" style="left:90px;right:90px;top:430px;font-size:96px">impulsionou<br>e só vieram<br><span style="color:#FF5470">gostos</span> 🫠</div>
+  <div class="abs" style="left:90px;right:90px;top:960px;font-size:54px;font-weight:800;color:#9EF01A">O que fazer em vez disso →</div>
+</div>
+<div class="foot"><span>KMD Mídias Digitais</span><span style="color:#9EF01A">@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=19.5; window.S=[[0,3.8],[3.8,8],[8,10.8],[10.8,15.6],[15.6,19.5]]; window.STYLE="lofi";
+window.SFX=mkSFX(window.S,[[0,0.2,"tick",0.3],[0,1.4,"click",0.5],[0,1.5,"cash",0.35],
+ [1,0.6,"notif",0.3],[1,1.0,"notif",0.3],[1,1.4,"notif",0.3],[1,1.8,"pop",0.3,500],[1,2.7,"buzz",0.4],
+ [2,0.3,"whooshdown",0.3,0.6],[2,0.9,"thud",0.5],
+ [3,0.2,"tick",0.3],[3,0.8,"pop",0.3,500],[3,1.7,"pop",0.3,600],[3,2.6,"pop",0.3,700],[3,3.5,"pop",0.3,800],
+ [4,0.4,"notif",0.35],[4,1.0,"notif",0.35],[4,1.6,"notif",0.35],[4,2.4,"key",0.3],[4,2.5,"key",0.3],[4,2.6,"key",0.3],[4,2.9,"ding",0.3,1760]],'swipe');
+function setTime(t){
+  const S=window.S; scenes(t,S,'flash'); let l;
+  l=L(t,S,0); fade('p1',l,0.05,.3); rise('t1',l,0.3); rise('ph1',l,0.6,.5,300);
+  { const k=p(l,1.4,0.15); $('bst').style.transform=`scale(${1-0.15*Math.sin(k*Math.PI)})`; count('lk',47,l,1.6,1.8); count('eur',20,l,1.6,1.8); }
+  l=L(t,S,1); rise('t2',l,0.1); [1,2,3,4].forEach(i=>slide('n'+i,l,0.6+(i-1)*0.4,.3,600)); pop('n5',l,2.7,.4);
+  l=L(t,S,2); pop('e3',l,0.3,.5,-10); rise('t3',l,0.9);
+  l=L(t,S,3); fade('p4',l,0.1,.3); [1,2,3,4].forEach(i=>slide('st'+i,l,0.8+(i-1)*0.9,.35,-500));
+  l=L(t,S,4); rise('t5',l,0.1); [1,2,3].forEach(i=>rise('m'+i,l,0.4+(i-1)*0.6,.35,80)); pop('cta',l,2.3,.4); typeText('kw','ADS',l,2.4,0.3);
+}
+setTime(0);
+</script></body></html>

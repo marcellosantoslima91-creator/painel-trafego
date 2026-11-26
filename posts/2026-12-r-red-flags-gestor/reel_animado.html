@@ -1,0 +1,88 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#120406;font-family:Inter,Roboto,sans-serif;color:#fff;position:relative}
+#bg{position:absolute;inset:0;background:radial-gradient(circle at 50% 40%,#3a0a10,#120406 70%)}
+#flash{position:absolute;inset:0;background:#E11D2E;opacity:0}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.big{font-weight:900;font-size:100px;line-height:1.02;letter-spacing:-3px;text-transform:uppercase}
+.rd{color:#FF3B4E}.gn{color:#3DDC84}
+.flag{font-size:260px;line-height:1}
+.cnt{font-weight:900;font-size:60px;letter-spacing:6px;color:#FF3B4E}
+.q{font-weight:900;font-size:78px;line-height:1.08;letter-spacing:-1px}
+.why{font-size:46px;line-height:1.35;font-weight:600;color:#f1c9cd}
+.ok{background:rgba(61,220,132,.12);border:4px solid #3DDC84;border-radius:28px;padding:30px 34px;font-size:44px;line-height:1.3;font-weight:700}
+.foot{position:absolute;left:90px;right:90px;bottom:160px;display:flex;justify-content:space-between;font-size:30px;font-weight:700;opacity:.8}
+</style></head><body>
+<div id="bg"></div><div id="flash"></div>
+
+<div class="scene" id="s1">
+  <div class="abs" style="left:0;right:0;top:380px;text-align:center" id="f1"><span class="flag">🚩</span><span class="flag">🚩</span><span class="flag">🚩</span></div>
+  <div class="abs big" style="left:80px;right:80px;top:760px;text-align:center" id="t1">Red flags ao<br>contratar um<br><span class="rd">gestor de tráfego</span></div>
+  <div class="abs" style="left:80px;right:80px;top:1220px;text-align:center;font-size:48px;font-weight:700;color:#f1c9cd" id="t1b">Se ouvir isto, desconfie.</div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs" style="right:60px;top:1020px;font-size:420px;opacity:.18;transform:rotate(-12deg)">🚩</div><div class="abs cnt" style="left:90px;top:300px" id="k2">🚩 RED FLAG 1</div>
+  <div class="abs q" style="left:90px;right:90px;top:420px" id="q2">“Garanto 100 clientes<br>no primeiro mês.”</div>
+  <div class="abs why" style="left:90px;right:90px;top:760px" id="w2">Ninguém garante resultados sem conhecer o negócio, a oferta e a zona.</div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs" style="right:60px;top:1020px;font-size:420px;opacity:.18;transform:rotate(-12deg)">🚩</div><div class="abs cnt" style="left:90px;top:300px" id="k3">🚩 RED FLAG 2</div>
+  <div class="abs q" style="left:90px;right:90px;top:420px" id="q3">“A conta de anúncios<br>fica em meu nome.”</div>
+  <div class="abs why" style="left:90px;right:90px;top:760px" id="w3">A conta e o histórico devem ser do negócio. Se mudar de gestor, não perde nada.</div>
+</div>
+
+<div class="scene" id="s4">
+  <div class="abs" style="right:60px;top:1020px;font-size:420px;opacity:.18;transform:rotate(-12deg)">🚩</div><div class="abs cnt" style="left:90px;top:300px" id="k4">🚩 RED FLAG 3</div>
+  <div class="abs q" style="left:90px;right:90px;top:420px" id="q4">“Relatório? Confie,<br>está a correr bem.”</div>
+  <div class="abs why" style="left:90px;right:90px;top:760px" id="w4">Tem de ver quanto gastou e o que voltou: mensagens, marcações, vendas.</div>
+</div>
+
+<div class="scene" id="s5">
+  <div class="abs" style="right:60px;top:1020px;font-size:420px;opacity:.18;transform:rotate(-12deg)">🚩</div><div class="abs cnt" style="left:90px;top:300px" id="k5">🚩 RED FLAG 4</div>
+  <div class="abs q" style="left:90px;right:90px;top:420px" id="q5">“O importante é<br>ganhar seguidores.”</div>
+  <div class="abs why" style="left:90px;right:90px;top:760px" id="w5">Seguidores não pagam contas. O objetivo tem de estar ligado a clientes.</div>
+</div>
+
+<div class="scene" id="s6">
+  <div class="abs" style="left:90px;top:300px;font-size:200px" id="g6">💚</div>
+  <div class="abs big gn" style="left:90px;right:90px;top:540px;font-size:84px" id="t6">Green flags:</div>
+  <div class="abs" style="left:90px;right:90px;top:690px">
+    <div class="ok" id="o1">✅ Pergunta pelo negócio antes de falar de preço</div>
+    <div class="ok" id="o2" style="margin-top:24px">✅ A conta fica em seu nome</div>
+    <div class="ok" id="o3" style="margin-top:24px">✅ Relatório simples, com números ligados a clientes</div>
+  </div>
+</div>
+
+<div class="scene" id="s7">
+  <div class="abs big" style="left:80px;right:80px;top:420px;text-align:center;font-size:90px" id="t7">Quer fazer estas<br>perguntas <span class="gn">à KMD</span>?</div>
+  <div class="abs" style="left:150px;right:150px;top:820px;background:#3DDC84;color:#120406;border-radius:30px;padding:36px;text-align:center;font-weight:900;font-size:56px" id="c7">Comente <span id="kw"></span></div>
+  <div class="abs" style="left:90px;right:90px;top:1040px;text-align:center;font-size:42px;font-weight:700;line-height:1.4" id="t7b">🔁 Envie a quem vai contratar alguém.</div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs" style="left:0;right:0;top:330px;text-align:center"><span class="flag" style="font-size:170px;white-space:nowrap">🚩🚩🚩🚩</span></div>
+  <div class="abs big" style="left:80px;right:80px;top:700px;text-align:center;font-size:110px">4 red flags<br>ao contratar<br><span class="rd">um gestor</span></div>
+</div>
+<div class="foot"><span>KMD Mídias Digitais</span><span class="gn">@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=26; window.S=[[0,3.6],[3.6,7.6],[7.6,11.6],[11.6,15.6],[15.6,19.6],[19.6,23.4],[23.4,26]]; window.STYLE="trap";
+const fl=[];
+window.SFX=mkSFX(window.S,[[0,0.3,"impact",0.5],[0,0.55,"impact",0.4],[0,0.8,"impact",0.4],[0,1.6,"whoosh",0.3,0.4],
+ [1,0.3,"buzz",0.5],[1,1.6,"pop",0.25,400],[2,0.3,"buzz",0.5],[2,1.6,"pop",0.25,400],[3,0.3,"buzz",0.5],[3,1.6,"pop",0.25,400],[4,0.3,"buzz",0.5],[4,1.6,"pop",0.25,400],
+ [5,0.3,"ding",0.3,1318],[5,1.1,"ding",0.25,1568],[5,1.6,"ding",0.25,1760],[5,2.1,"ding",0.25,2093],
+ [6,0.2,"impact",0.4],[6,0.9,"key",0.3],[6,1.0,"key",0.3],[6,1.1,"key",0.3],[6,1.2,"key",0.3],[6,1.3,"key",0.3],[6,1.4,"key",0.3],[6,1.7,"ding",0.3,1760]],'swipe');
+function setTime(t){
+  const S=window.S; scenes(t,S,'flash'); let l;
+  let fx=0; [1,2,3,4].forEach(k=>{const d=t-S[k][0]-0.05; if(d>=0&&d<0.25) fx=Math.max(fx,0.55*(1-d/0.25));}); $('flash').style.opacity=fx;
+  l=L(t,S,0); slam('f1',l,0.3,.35,0); rise('t1',l,1.2); fade('t1b',l,2.0,.4);
+  [[1,'k2','q2','w2'],[2,'k3','q3','w3'],[3,'k4','q4','w4'],[4,'k5','q5','w5']].forEach(([k,a,b,c])=>{ l=L(t,S,k); slide(a,l,0.3,.3,-300); slam(b,l,0.55,.3,-2); rise(c,l,1.6); });
+  l=L(t,S,5); pop('g6',l,0.2,.4); rise('t6',l,0.4); slide('o1',l,1.0,.35,500); slide('o2',l,1.5,.35,500); slide('o3',l,2.0,.35,500);
+  l=L(t,S,6); rise('t7',l,0.1); pop('c7',l,0.7,.4); typeText('kw','GESTOR',l,0.95,0.45); fade('t7b',l,1.7,.4);
+}
+setTime(0);
+</script></body></html>

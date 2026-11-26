@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:#F2EDE4;font-family:Georgia,'Times New Roman',serif;color:#1E1B16;position:relative}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.w{display:inline-block;opacity:0}
+.q{font-size:112px;line-height:1.12;letter-spacing:-2px}
+.ac{color:#B5492F;font-style:italic}
+.rule{height:6px;background:#1E1B16;width:0}
+.sm{font-family:Inter,Roboto,sans-serif;font-size:40px;font-weight:600;line-height:1.45;color:#5b5349}
+.foot{position:absolute;left:110px;right:110px;bottom:180px;display:flex;justify-content:space-between;font-family:Inter,Roboto,sans-serif;font-size:30px;font-weight:700;opacity:.7}
+</style></head><body>
+<div class="abs" style="left:110px;top:300px;font-size:260px;color:#B5492F;opacity:.25;line-height:1">“</div>
+
+<div class="scene" id="s1">
+  <div class="abs q" style="left:110px;right:110px;top:560px" id="q1"></div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs q" style="left:110px;right:110px;top:560px" id="q2"></div>
+  <div class="abs rule" style="left:110px;top:1150px" id="r2"></div>
+  <div class="abs sm" style="left:110px;right:110px;top:1210px" id="m2">Responder depressa conta<br>tanto como o próprio anúncio.</div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs q" style="left:110px;right:110px;top:560px;font-size:90px" id="t3">Guarde. Envie a quem<br>responde <span class="ac">no dia seguinte</span>.</div>
+  <div class="abs sm" style="left:110px;right:110px;top:1000px" id="m3">💬 Comente <b style="color:#B5492F">RESPOSTA</b> e envio-lhe<br>mensagens prontas a usar.</div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs q" style="left:110px;right:110px;top:560px">O anúncio<br>não falha.<br><span class="ac">Falha a resposta<br>à mensagem.</span></div>
+</div>
+<div class="foot"><span>KMD Mídias Digitais</span><span style="color:#B5492F">@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=13; window.S=[[0,4.2],[4.2,9.4],[9.4,13]]; window.STYLE="piano";
+window.SFX=mkSFX(window.S,[[0,0.4,"key",0.2],[0,1.0,"key",0.2],[0,1.6,"key",0.2],
+ [1,0.4,"key",0.2],[1,1.0,"key",0.2],[1,1.6,"key",0.2],[1,2.2,"key",0.2],[1,2.9,"ding",0.2,1046],
+ [2,0.4,"pop",0.2,500],[2,1.5,"ding",0.2,1318]],'whoosh');
+function words(id,txt,cls=''){ $(id).innerHTML=txt.split(' ').map(w=>w==='|'?'<br>':`<span class="w ${cls}">${w}</span>`).join(' '); }
+words('q1','O anúncio | não falha.');
+words('q2','Falha a resposta | à mensagem.','ac');
+function wordsIn(id,lt,a,step){ [...$(id).querySelectorAll('.w')].forEach((e,i)=>{const k=eOut(p(lt,a+i*step,.35)); e.style.opacity=k; e.style.transform=`translateY(${(1-k)*40}px)`;}); }
+function setTime(t){
+  const S=window.S; scenes(t,S,'rise'); let l;
+  l=L(t,S,0); wordsIn('q1',l,0.3,0.55);
+  l=L(t,S,1); wordsIn('q2',l,0.3,0.45); { $('r2').style.width=(300*eOut(p(l,2.6,.5)))+'px'; } rise('m2',l,2.9);
+  l=L(t,S,2); rise('t3',l,0.2); rise('m3',l,1.2);
+}
+setTime(0);
+</script></body></html>

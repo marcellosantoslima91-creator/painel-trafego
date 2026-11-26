@@ -1,0 +1,94 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:linear-gradient(180deg,#E9F5EE,#D6EFE2);font-family:Inter,Roboto,sans-serif;color:#13231B;position:relative}
+.abs{position:absolute}.scene{position:absolute;inset:0;opacity:0}
+.title{font-weight:900;font-size:86px;line-height:1.04;letter-spacing:-2px}
+.gr{color:#0F9D58}
+.prof{position:absolute;left:110px;width:860px;top:500px;height:1150px;background:#fff;border-radius:50px;box-shadow:0 30px 70px rgba(15,60,40,.18);overflow:hidden}
+.ph{padding:40px 44px 0}
+.top{display:flex;align-items:center;gap:40px}
+.pic{width:180px;height:180px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:96px;flex:none}
+.stats{display:flex;gap:44px;font-size:30px;text-align:center}.stats b{display:block;font-size:42px}
+.name{font-weight:800;font-size:40px;margin-top:26px}
+.bio{font-size:34px;line-height:1.4;margin-top:10px;color:#333}
+.btns{display:flex;gap:18px;margin-top:28px}
+.b{flex:1;border-radius:14px;padding:20px;text-align:center;font-weight:800;font-size:32px;background:#EFEFEF}
+.hl{display:flex;gap:30px;margin-top:34px}
+.h{text-align:center;font-size:26px}.hc{width:120px;height:120px;border-radius:50%;border:4px solid #ddd;display:flex;align-items:center;justify-content:center;font-size:56px;margin:0 auto 10px;background:#fafafa}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:34px}
+.g{height:250px;display:flex;align-items:center;justify-content:center;font-size:80px}
+.lbl{position:absolute;top:420px;padding:12px 30px;border-radius:30px;font-weight:900;font-size:40px;letter-spacing:3px}
+#wipe{position:absolute;top:470px;width:10px;height:1220px;background:#0F9D58;box-shadow:0 0 30px #0F9D58;border-radius:6px}
+.chk{display:flex;gap:26px;align-items:center;font-size:54px;font-weight:800;margin-bottom:46px}
+.ck{width:90px;height:90px;border-radius:24px;background:#0F9D58;color:#fff;display:flex;align-items:center;justify-content:center;font-size:56px;flex:none}
+.foot{position:absolute;left:90px;right:90px;bottom:120px;display:flex;justify-content:space-between;font-size:30px;font-weight:700;opacity:.75}
+</style></head><body>
+
+<div class="scene" id="s1">
+  <div class="abs title" style="left:90px;right:90px;top:220px;font-size:68px" id="t1">O anúncio leva ao perfil.<br><span class="gr">O perfil convence?</span></div>
+  <!-- ANTES -->
+  <div class="prof" id="pA"><div class="ph">
+    <div class="top"><div class="pic" style="background:#ddd;font-size:70px">📷</div><div class="stats"><div><b>12</b>posts</div><div><b>230</b>seguidores</div><div><b>410</b>a seguir</div></div></div>
+    <div class="name">studio_beleza_2019</div>
+    <div class="bio">✨💅🌸 Amo o que faço 🌸💅✨<br>Sigam!!!</div>
+    <div class="btns"><div class="b">A seguir</div><div class="b">Mensagem</div></div>
+    <div class="hl"><div class="h"><div class="hc">🌸</div>…</div><div class="h"><div class="hc">💕</div>.</div><div class="h"><div class="hc">⭐</div>novo</div></div>
+    <div class="grid"><div class="g" style="background:#f3e5f5">🌅</div><div class="g" style="background:#fce4ec">💭</div><div class="g" style="background:#ede7f6">🐶</div><div class="g" style="background:#f3e5f5">🎉</div><div class="g" style="background:#fce4ec">☕</div><div class="g" style="background:#ede7f6">🌸</div></div>
+  </div></div>
+  <!-- DEPOIS -->
+  <div class="prof" id="pB" style="clip-path:inset(0 100% 0 0)"><div class="ph">
+    <div class="top"><div class="pic" style="background:#E8F5E9;font-size:110px">💅</div><div class="stats"><div><b>12</b>posts</div><div><b>230</b>seguidores</div><div><b>410</b>a seguir</div></div></div>
+    <div class="name">Studio Beleza · Unhas em Braga</div>
+    <div class="bio">💅 Gel, verniz gel e nail art<br>📍 Rua do Souto, Braga · seg–sáb<br>👇 Marque por mensagem</div>
+    <div class="btns"><div class="b">A seguir</div><div class="b" style="background:#0866FF;color:#fff">💬 Marcar</div><div class="b">📍 Mapa</div></div>
+    <div class="hl"><div class="h"><div class="hc" style="border-color:#0F9D58">💶</div>Preços</div><div class="h"><div class="hc" style="border-color:#0F9D58">📸</div>Trabalhos</div><div class="h"><div class="hc" style="border-color:#0F9D58">⭐</div>Opiniões</div><div class="h"><div class="hc" style="border-color:#0F9D58">📍</div>Onde</div></div>
+    <div class="grid"><div class="g" style="background:#E8F5E9">💅</div><div class="g" style="background:#FFF3E0">🧑‍🎨</div><div class="g" style="background:#E3F2FD">⭐</div><div class="g" style="background:#FCE4EC">✨</div><div class="g" style="background:#E8F5E9">💶</div><div class="g" style="background:#FFF3E0">📍</div></div>
+  </div></div>
+  <div class="lbl" style="left:110px;background:#13231B;color:#fff" id="la">ANTES</div>
+  <div class="lbl" style="right:110px;background:#0F9D58;color:#fff;opacity:0" id="lb">DEPOIS</div>
+  <div id="wipe" style="left:110px;opacity:0"></div>
+  <div class="abs" style="left:0;right:0;top:1720px;text-align:center;font-size:30px;font-weight:700;opacity:.6" id="fic">perfil fictício</div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="abs title" style="left:90px;right:90px;top:280px" id="t2">O que mudou:</div>
+  <div class="abs" style="left:90px;right:90px;top:500px">
+    <div class="chk" id="c1"><div class="ck">✓</div><div>Nome diz <span class="gr">o que faz e onde</span></div></div>
+    <div class="chk" id="c2"><div class="ck">✓</div><div>Bio com <span class="gr">serviço, zona e horário</span></div></div>
+    <div class="chk" id="c3"><div class="ck">✓</div><div>Botão para <span class="gr">marcar</span></div></div>
+    <div class="chk" id="c4"><div class="ck">✓</div><div>Destaques com <span class="gr">preços e opiniões</span></div></div>
+    <div class="chk" id="c5"><div class="ck">✓</div><div>Grelha só com <span class="gr">o trabalho</span></div></div>
+  </div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="abs title" style="left:90px;right:90px;top:400px;font-size:96px" id="t3">Arrume o perfil<br><span class="gr">antes</span> de pagar<br>anúncios.</div>
+  <div class="abs" style="left:90px;right:90px;top:900px;background:#13231B;color:#fff;border-radius:30px;padding:38px;text-align:center;font-weight:900;font-size:54px" id="c6">Envie <span id="kw" style="color:#7CF29A"></span> por mensagem</div>
+  <div class="abs" style="left:90px;right:90px;top:1100px;font-size:40px;line-height:1.4;font-weight:600;text-align:center" id="t3b">e conversamos sobre o seu negócio.<br>🔁 Envie a quem tem o perfil assim.</div>
+</div>
+
+<div class="scene" id="cover" style="display:none">
+  <div class="abs title" style="left:90px;right:90px;top:300px;font-size:120px">Antes <span class="gr">→</span><br>depois</div>
+  <div class="abs title" style="left:90px;right:90px;top:600px;font-size:60px">do perfil que recebe<br>os cliques do anúncio</div>
+  <div class="abs" style="left:90px;width:430px;top:900px;background:#fff;border-radius:36px;padding:34px;box-shadow:0 20px 50px rgba(15,60,40,.15)"><div class="lbl" style="position:static;display:inline-block;background:#13231B;color:#fff;font-size:30px">ANTES</div><div style="font-size:90px;margin:20px 0">📷</div><div class="name" style="font-size:32px">studio_beleza_2019</div><div class="bio" style="font-size:30px">✨💅🌸 Amo o que faço<br>Sigam!!!</div></div>
+  <div class="abs" style="left:560px;width:430px;top:900px;background:#fff;border-radius:36px;padding:34px;box-shadow:0 20px 50px rgba(15,60,40,.15);border:6px solid #0F9D58"><div class="lbl" style="position:static;display:inline-block;background:#0F9D58;color:#fff;font-size:30px">DEPOIS</div><div style="font-size:90px;margin:20px 0">💅</div><div class="name" style="font-size:32px">Studio Beleza · Unhas em Braga</div><div class="bio" style="font-size:30px">📍 Braga · seg–sáb<br>👇 Marque por mensagem</div></div>
+</div>
+<div class="foot"><span>KMD Mídias Digitais</span><span class="gr">@kmdmidias</span></div>
+<script src="../base.js"></script>
+<script>
+window.D=20; window.S=[[0,9.5],[9.5,16],[16,20]]; window.STYLE="ambient";
+window.SFX=mkSFX(window.S,[[0,0.2,"whoosh",0.3,0.4],[0,4.0,"riser",0.35],[0,5.2,"swipe",0.6],[0,6.2,"ding",0.35,1568],
+ [1,0.3,"pop",0.3,500],[1,1.2,"ding",0.25,1046],[1,2.1,"ding",0.25,1174],[1,3.0,"ding",0.25,1318],[1,3.9,"ding",0.25,1396],[1,4.8,"ding",0.25,1568],
+ [2,0.3,"impact",0.5],[2,1.2,"key",0.3],[2,1.3,"key",0.3],[2,1.4,"key",0.3],[2,1.5,"key",0.3],[2,1.9,"pop",0.3,700]],'swipe');
+function setTime(t){
+  const S=window.S; scenes(t,S,'zoom'); let l;
+  l=L(t,S,0); rise('t1',l,0.1); rise('pA',l,0.5,.5,300); pop('la',l,1.0,.4); fade('fic',l,1.2,.4);
+  { const k=eIO(p(l,4.4,1.6)); $('pB').style.clipPath=`inset(0 ${100-k*100}% 0 0)`; $('wipe').style.left=(110+860*k)+'px'; $('wipe').style.opacity=(k>0&&k<1)?1:0;
+    $('la').style.opacity=k>0.05?1-k:$('la').style.opacity; $('lb').style.opacity=cl((k-0.6)*3); }
+  l=L(t,S,1); rise('t2',l,0.1); [1,2,3,4,5].forEach(i=>slide('c'+i,l,0.8+(i-1)*0.9,.35,-500));
+  l=L(t,S,2); rise('t3',l,0.1); pop('c6',l,0.8,.4); typeText('kw','PERFIL',l,1.1,0.4); rise('t3b',l,1.8);
+}
+setTime(0);
+</script></body></html>
