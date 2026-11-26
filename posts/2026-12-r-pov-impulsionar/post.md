@@ -1,7 +1,7 @@
 # Reel — POV: impulsionou e só vieram gostos
 
 - Formato: Reel 19,5 s, ecrã de telemóvel escuro, letra "terminal" verde-lima, música lofi
-- Estado: a aguardar aprovação do Marcello · Data: a definir
+- Estado: aprovado (26/11) e agendado para 02/12 12:30 · Data: 02/12
 - Mensagens no fim são exemplos (assinalado no vídeo)
 
 ## Legenda

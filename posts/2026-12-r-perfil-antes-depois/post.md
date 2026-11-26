@@ -1,7 +1,7 @@
 # Reel — Antes e depois do perfil
 
 - Formato: Reel 20 s, verde menta, perfil de Instagram com cortina antes→depois, música ambient
-- Estado: a aguardar aprovação do Marcello · Data: a definir
+- Estado: aprovado (26/11) e agendado para 05/12 12:30 · Data: 05/12
 - Perfil fictício "Studio Beleza"
 
 ## Legenda

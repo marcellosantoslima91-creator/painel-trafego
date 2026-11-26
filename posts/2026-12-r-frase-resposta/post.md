@@ -1,7 +1,7 @@
 # Reel — Frase: “O anúncio não falha. Falha a resposta à mensagem.”
 
 - Formato: Reel 13 s, minimalista (papel creme, serifa, palavra a palavra), música piano
-- Estado: a aguardar aprovação do Marcello · Data: a definir
+- Estado: aprovado (26/11) e agendado para 06/12 12:30 · Data: 06/12
 
 ## Legenda
 

@@ -1,7 +1,7 @@
 # Reel — 4 red flags ao contratar um gestor de tráfego
 
 - Formato: Reel 26 s, vermelho escuro com flash a cada bandeira, green flags no fim, música trap
-- Estado: a aguardar aprovação do Marcello · Data: a definir (combina com o post de 03/12)
+- Estado: aprovado (26/11) e agendado para 03/12 12:30 · Data: 03/12
 
 ## Legenda
 
