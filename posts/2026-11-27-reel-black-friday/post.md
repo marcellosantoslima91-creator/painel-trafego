@@ -1,7 +1,7 @@
 # Reel — reel black friday
 
 - Formato: Reel animado 1080x1920, 20 s — estilo: néon preto e rosa · house 124 BPM (tools/reel_animado/v2/reels/r5_black.html)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado (27/11 12:31, media 18080832158442694)
 - Data proposta: Sex 27/11 12:30
 
 ## Legenda
