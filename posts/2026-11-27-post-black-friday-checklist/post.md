@@ -1,7 +1,7 @@
 # Post — post black friday checklist
 
 - Formato: Carrossel 5 (tools/gerar_slides.py post.json .)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado (27/11 09:01, media 18121327514066446)
 - Data proposta: Sex 27/11 9:00
 
 ## Legenda
