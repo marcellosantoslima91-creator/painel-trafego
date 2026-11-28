@@ -1,7 +1,7 @@
 # Post — 5 perguntas a fazer a um gestor de tráfego
 
 - Formato: Carrossel 7 (pilar f — perguntas dos donos de negócio)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (28/11) e agendado para 03/12 9:00
 - Data proposta: qui 03/12, 9:00
 
 ## Legenda

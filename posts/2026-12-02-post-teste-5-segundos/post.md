@@ -1,7 +1,7 @@
 # Post — O teste dos 5 segundos do perfil
 
 - Formato: Imagem única (pilar e — checklist)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (28/11) e agendado para 02/12 9:00
 - Data proposta: qua 02/12, 9:00
 
 ## Legenda

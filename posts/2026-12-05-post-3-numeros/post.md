@@ -1,7 +1,7 @@
 # Post — Os 3 números do anúncio que importam
 
 - Formato: Carrossel 6 (pilar g — números explicados de forma simples, valores ilustrativos)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (28/11) e agendado para 05/12 9:00
 - Data proposta: sáb 05/12, 9:00
 
 ## Legenda
