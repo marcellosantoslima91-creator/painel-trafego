@@ -30,3 +30,4 @@
 | 2026-11-27 | Carrossel 5 | Black Friday local: anúncio em 30 min (CTA BLACK) | Publicado 09:01 (Claude, aprovado) | media 18121327514066446 |
 | 2026-11-27 | Reel | Black Friday não é só para grandes lojas (CTA BLACK) | Publicado 12:31 (Claude, aprovado) | media 18080832158442694 |
 | 2026-11-28 | Imagem | Antes de desligar o anúncio: 3 perguntas (CTA ADS) | Publicado 09:01 (Claude, aprovado) | media 18236254246324047 |
+| 2026-11-28 | Reel | Não desligue o anúncio ao 1.º dia (CTA ADS) | Publicado 12:30 (Claude, aprovado) | media 18110771687219850 |
