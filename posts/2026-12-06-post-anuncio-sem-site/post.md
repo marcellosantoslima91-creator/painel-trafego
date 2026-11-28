@@ -1,7 +1,7 @@
 # Post — Preciso de um site para fazer anúncios?
 
 - Formato: Carrossel 6 (pilar f — perguntas dos donos de negócio)
-- Estado: a aguardar aprovação do Marcello
+- Estado: aprovado (28/11) e agendado para 06/12 9:00
 - Data proposta: dom 06/12, 9:00
 
 ## Legenda
