@@ -1,7 +1,7 @@
 # Post — post antes de desligar
 
 - Formato: Imagem única (tools/gerar_slides.py post.json .)
-- Estado: aprovado e agendado (Claude)
+- Estado: publicado (28/11 09:01, media 18236254246324047)
 - Data proposta: Sáb 28/11 9:00
 
 ## Legenda
